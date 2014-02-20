@@ -1,0 +1,3672 @@
+body {
+    text-shadow: 1px 1px 1px rgb(0,0,0);
+    background-image: url('../../../img/projects/premierleague/bg.jpg');
+    padding: 0;
+    margin: 0;
+}
+
+#header, #team-header {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.85);
+    display: block;
+    left: 0;
+    width: 100%;
+}
+    
+#header {
+    height: 60px;
+    position: absolute;
+    top: 70px;
+    z-index: 199;
+}
+
+#chart {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+    
+#team-header {
+    height: 70px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+}
+    .w1 {
+        left: 100px;
+    }
+    .w2 {
+        left: 150px;
+    }
+    .w3 {
+        left: 200px;
+    }
+    .w4 {
+        left: 250px;
+    }
+    .w5 {
+        left: 300px;
+    }
+    .w6 {
+        left: 350px;
+    }
+    .w7 {
+        left: 400px;
+    }
+    .w8 {
+        left: 450px;
+    }
+    .w9 {
+        left: 500px;
+    }
+    .w10 {
+        left: 550px;
+    }
+    .w11 {
+        left: 600px;
+    }
+    .w12 {
+        left: 650px;
+    }
+    .w13 {
+        left: 700px;
+    }
+    .w14 {
+        left: 750px;
+    }
+    .w15 {
+        left: 800px;
+    }
+    .w16 {
+        left: 850px;
+    }
+    .w17 {
+        left: 900px;
+    }
+    .w18 {
+        left: 950px;
+    }
+    .w19 {
+        left: 1000px;
+    }
+    .w20 {
+        left: 1050px;
+    }
+    .w21 {
+        left: 1100px;
+    }
+    .w22 {
+        left: 1150px;
+    }
+    .w23 {
+        left: 1200px;
+    }
+    .w24 {
+        left: 1250px;
+    }
+    .w25 {
+        left: 1300px;
+    }
+    .w26 {
+        left: 1350px;
+    }
+    .labels-right {
+        left: 1400px;
+    }
+    .wForm {
+        left: 1475px;
+    }
+    .w2012 {
+        left: 1525px;
+    }
+    .w2011 {
+        left: 1575px;
+    }
+    .w2010 {
+        left: 1625px;
+    }
+    .w2009 {
+        left: 1675px;
+    }
+    .w2008 {
+        left: 1725px;
+    }
+    .to-play {
+        left: 410px;
+        position: absolute;
+        top: 310px;
+    }
+    .w27 {
+        left: 1400px;
+    }
+    .w28 {
+        left: 1450px;
+    }
+    .w29 {
+        left: 1500px;
+    }
+    .w30 {
+        left: 1550px;
+    }
+    .w31 {
+        left: 1600px;
+    }
+    .w32 {
+        left: 1650px;
+    }
+    .w33 {
+        left: 1700px;
+    }
+    .w34 {
+        left: 1750px;
+    }
+    .w35 {
+        left: 1800px;
+    }
+    .w36 {
+        left: 1850px;
+    }
+    .w37 {
+        left: 1900px;
+    }
+    .w38 {
+        left: 1950px;
+    }
+
+.manager, .team, .relegated {
+    background-image: url('../../../img/projects/premierleague/sprite.png');
+    display: block;
+    height: 50px;
+    opacity: 0.3;
+    position: absolute;
+    top: -100px;
+    width: 50px;
+}
+
+.title {
+    color: grey;
+    display: block;
+    font-size: 24px;
+    margin: 130px auto 0 auto;
+    width: 800px;
+}
+.title-image {
+    background-image: url('../../../img/projects/premierleague/sprite.png');
+    display: block;
+    background-position: -1000px 0;
+    height: 71px;
+    float: left;
+    opacity: 0.9;
+    margin-right: 20px;
+    margin-top: -20px;
+    width: 69px;
+}
+.title a {
+    color: white;
+}
+
+.w0 {
+    top: 10px;
+    z-index: 210 !important;
+     opacity: 0.5;
+    position: fixed;
+}
+
+.team.w26 {
+    opacity: 0.7;   
+}
+
+    .ars:hover .team,
+    .ast:hover .team,
+    .car:hover .team,
+    .che:hover .team,
+    .cry:hover .team,
+    .eve:hover .team,
+    .ful:hover .team,
+    .hul:hover .team,
+    .liv:hover .team,
+    .manc:hover .team,
+    .manu:hover .team,
+    .new:hover .team,
+    .nor:hover .team,
+    .sou:hover .team,
+    .sto:hover .team,
+    .sun:hover .team,
+    .swa:hover .team,
+    .tot:hover .team,
+    .westb:hover .team,
+    .westh:hover .team,
+    .ars:active .team,
+    .ast:active .team,
+    .car:active .team,
+    .che:active .team,
+    .cry:active .team,
+    .eve:active .team,
+    .ful:active .team,
+    .hul:active .team,
+    .liv:active .team,
+    .manc:active .team,
+    .manu:active .team,
+    .new:active .team,
+    .nor:active .team,
+    .sou:active .team,
+    .sto:active .team,
+    .sun:active .team,
+    .swa:active .team,
+    .tot:active .team,
+    .westb:active .team,
+    .westh:active .team,
+    .rel:hover,
+    .rel:active {
+        opacity: 1.0;
+        z-index: 150;
+	  -webkit-transition: opacity 0.5s;
+    }
+
+    .ars .team {
+        background-position: 0 0;
+    }
+        .ars .wForm {
+            top: 400px;
+        }
+        .ars .w0 {
+            left: 10%;
+        }
+        .ars .w1 {
+            top: 1500px;
+        }
+        .ars .w2 {
+            top: 750px;
+        }
+        .ars .w3 {
+            top: 500px;
+        }
+        .ars .w4 {
+            top: 375px;
+        }
+        .ars .w5 {
+            top: 300px;
+        }
+        .ars .w6 {
+            top: 350px;
+        }
+        .ars .w7 {
+            top: 357px;
+        }
+        .ars .w8 {
+            top: 313px;
+        }
+        .ars .w9 {
+            top: 278px;
+        }
+        .ars .w10 {
+            top: 250px;
+        }
+        .ars .w11 {
+            top: 364px;
+        }
+        .ars .w12 {
+            top: 333px;
+        }
+        .ars .w13 {
+            top: 308px;
+        }
+        .ars .w14 {
+            top: 286px;
+        }
+        .ars .w15 {
+            top: 333px;
+        }
+        .ars .w16 {
+            top: 406px;
+        }
+        .ars .w17 {
+            top: 441px;
+        }
+        .ars .w18 {
+            top: 417px;
+        }
+        .ars .w19 {
+            top: 395px;
+        }
+        .ars .w20 {
+            top: 375px;
+        }
+        .ars .w21 {
+            top: 357px;
+        }
+        .ars .w22 {
+            top: 341px;
+        }
+        .ars .w23 {
+            top: 370px;
+        }
+        .ars .w24 {
+            top: 354px;
+        }
+        .ars .w25 {
+            top: 400px;
+        }
+        .ars .w26 {
+            top: 423px;
+        }
+        .ars .w27 {
+            margin-left: -5px;
+            top: 80px;
+        }
+        .ars .w28 {
+            margin-left: 5px;
+            top: 270px;
+        }
+        .ars .w29 {
+            margin-left: -5px;
+            top: 80px;
+        }
+        .ars .w30 {
+            margin-left: 5px;
+            top: 750px;
+        }
+        .ars .w31 {
+            margin-left: 5px;
+            top: 30px;
+        }
+        .ars .w32 {
+            margin-left: -5px;
+            top: 480px;
+        }
+        .ars .w33 {
+            margin-left: 5px;
+            top: 270px;
+        }
+        .ars .w34 {
+            margin-left: -5px;
+            top: 0px;
+        }
+        .ars .w35 {
+            margin-left: 5px;
+            top: 350px;
+        }
+        .ars .w36 {
+            margin-left: -5px;
+            top: 0px;
+        }
+        .ars .w37 {
+            margin-left: -5px;
+            top: 0px;
+        }
+        .ars .w38 {
+            margin-left: 5px;
+            top: 430px;
+        }
+        
+        .ars .w2012 {
+            top: 539px;
+            z-index: 4;
+        }
+        .ars .w2011 {
+            top: 579px;
+            z-index: 3;
+        }
+        .ars .w2010 {
+            top: 605px;
+            z-index: 4;
+        }
+        .ars .w2009 {
+            top: 513px;
+            z-index: 3;
+        }
+        .ars .w2008 {
+            top: 553px;
+            z-index: 4;
+        }
+        
+        
+        
+    .ast .team {
+        background-position: -50px 0;
+    }
+        .ast .wForm {
+            top: 939px;
+        }
+        .ast .w0 {
+            left: 14%;
+        }
+        .ast .w1 {
+            top: 0px;
+        }
+        .ast .w2 {
+            top: 750px;
+        }
+        .ast .w3 {
+            top: 1000px;
+        }
+        .ast .w4 {
+            top: 1125px;
+        }
+        .ast .w5 {
+            top: 900px;
+        }
+        .ast .w6 {
+            top: 750px;
+        }
+        .ast .w7 {
+            top: 786px;
+        }
+        .ast .w8 {
+            top: 875px;
+        }
+        .ast .w9 {
+            top: 944px;
+        }
+        .ast .w10 {
+            top: 950px;
+        }
+        .ast .w11 {
+            top: 864px;
+        }
+        .ast .w12 {
+            top: 875px;
+        }
+        .ast .w13 {
+            top: 885px;
+        }
+        .ast .w14 {
+            top: 821px;
+        }
+        .ast .w15 {
+            top: 867px;
+        }
+        .ast .w16 {
+            top: 906px;
+        }
+        .ast .w17 {
+            top: 941px;
+        }
+        .ast .w18 {
+            top: 972px;
+        }
+        .ast .w19 {
+            top: 974px;
+        }
+        .ast .w20 {
+            top: 925px;
+        }
+        .ast .w21 {
+            top: 952px;
+        }
+        .ast .w22 {
+            top: 955px;
+        }
+        .ast .w23 {
+            top: 913px;
+        }
+        .ast .w24 {
+            top: 937px;
+        }
+        .ast .w25 {
+            top: 960px;
+        }
+        .ast .w26 {
+            top: 962px;
+        }
+        .ast .w27 {
+            margin-left: 5px;
+            top: 670px;
+        }
+        .ast .w28 {
+            margin-left: -5px;
+            top: 400px;
+        }
+        .ast .w29 {
+            margin-left: 5px;
+            top: 350px;
+        }
+        .ast .w30 {
+            margin-left: -5px;
+            top: 560px;
+        }
+        .ast .w31 {
+            margin-left: -5px;
+            top: 720px;
+        }
+        .ast .w32 {
+            margin-left: 5px;
+            top: 30px;
+        }
+        .ast .w33 {
+            margin-left: -5px;
+            top: 0px;
+        }
+        .ast .w34 {
+            margin-left: 5px;
+            top: 110px;
+        }
+        .ast .w35 {
+            margin-left: -5px;
+            top: 0px;
+        }
+        .ast .w36 {
+            margin-left: 5px;
+            top: 670px;
+        }
+        .ast .w37 {
+            margin-left: -5px;
+            top: 80px;
+        }
+        .ast .w38 {
+            margin-left: 5px;
+            top: 670px;
+        }
+        
+        .ast .wWWW {
+            margin-left: 10px;
+            top: 553px;
+        }
+        .ast .wLLL {
+            margin-left: -10px;
+            top: 1184px;
+        }
+        .ast .w2012 {
+            top: 961px;
+            z-index: 15;
+        }
+        .ast .w2011 {
+            top: 1000px;
+            z-index: 16;
+        }
+        .ast .w2010 {
+            top: 868px;
+            z-index: 9;
+        }
+        .ast .w2009 {
+            top: 658px;
+            z-index: 6;
+        }
+        .ast .w2008 {
+            top: 684px;
+            z-index: 6;
+        }
+        
+        
+    .car .team {
+        background-position: -100px 0;
+    }
+        .car .wForm {
+            top: 1104px;
+        }
+        .car .w0 {
+            left: 18%;
+        }
+        .car .w1 {
+            top: 1500px;
+        }
+        .car .w2 {
+            top: 750px;
+        }
+        .car .w3 {
+            top: 833px;
+        }
+        .car .w4 {
+            top: 875px;
+        }
+        .car .w5 {
+            top: 1000px;
+        }
+        .car .w6 {
+            top: 833px;
+        }
+        .car .w7 {
+            top: 929px;
+        }
+        .car .w8 {
+            top: 1000px;
+        }
+        .car .w9 {
+            top: 1000px;
+        }
+        .car .w10 {
+            top: 900px;
+        }
+        .car .w11 {
+            top: 955px;
+        }
+        .car .w12 {
+            top: 958px;
+        }
+        .car .w13 {
+            top: 1000px;
+        }
+        .car .w14 {
+            top: 1000px;
+        }
+        .car .w15 {
+            top: 1033px;
+        }
+        .car .w16 {
+            top: 969px;
+        }
+        .car .w17 {
+            top: 1000px;
+        }
+        .car .w18 {
+            top: 1028px;
+        }
+        .car .w19 {
+            top: 1026px;
+        }
+        .car .w20 {
+            top: 1050px;
+        }
+        .car .w21 {
+            top: 1071px;
+        }
+        .car .w22 {
+            top: 1091px;
+        }
+        .car .w23 {
+            top: 1109px;
+        }
+        .car .w24 {
+            top: 1063px;
+        }
+        .car .w25 {
+            top: 1080px;
+        }
+        .car .w26 {
+            top: 1077px;
+        }
+        .car .w27 {
+            margin-left: -5px;
+            top: 160px;
+        }
+        .car .w28 {
+            margin-left: 5px;
+            top: 590px;
+        }
+        .car .w29 {
+            margin-left: -5px;
+            top: 160px;
+        }
+        .car .w30 {
+            margin-left: 5px;
+            top: 110px;
+        }
+        .car .w31 {
+            margin-left: -5px;
+            top: 80px;
+        }
+        .car .w32 {
+            margin-left: 5px;
+            top: 430px;
+        }
+        .car .w33 {
+            margin-left: -5px;
+            top: 80px;
+        }
+        .car .w34 {
+            margin-left: 5px;
+            top: 430px;
+        }
+        .car .w35 {
+            margin-left: -5px;
+            top: 80px;
+        }
+        .car .w36 {
+            margin-left: 5px;
+            top: 590px;
+        }
+        .car .w37 {
+            margin-left: 5px;
+            top: 510px;
+        }
+        .car .w38 {
+            margin-left: -5px;
+            top: 0px;
+        }
+
+        .car .wWWW {
+            margin-left: 10px;
+            top: 632px;
+        }
+        .car .wLLL {
+            margin-left: -10px;
+            top: 1263px;
+        }
+        
+        
+        
+    .che .team {
+        background-position: -150px 0;
+    }
+        .che .wForm {
+            top: 322px;
+        }
+        .che .w0 {
+            left: 22%;
+        }
+        .che .w1 {
+            top: 0px;
+        }
+        .che .w2 {
+            top: 0px;
+        }
+        .che .w3 {
+            top: 333px;
+        }
+        .che .w4 {
+            top: 625px;
+        }
+        .che .w5 {
+            top: 500px;
+        }
+        .che .w6 {
+            top: 583px;
+        }
+        .che .w7 {
+            top: 500px;
+        }
+        .che .w8 {
+            top: 438px;
+        }
+        .che .w9 {
+            top: 389px;
+        }
+        .che .w10 {
+            top: 500px;
+        }
+        .che .w11 {
+            top: 545px;
+        }
+        .che .w12 {
+            top: 500px;
+        }
+        .che .w13 {
+            top: 462px;
+        }
+        .che .w14 {
+            top: 429px;
+        }
+        .che .w15 {
+            top: 500px;
+        }
+        .che .w16 {
+            top: 469px;
+        }
+        .che .w17 {
+            top: 500px;
+        }
+        .che .w18 {
+            top: 472px;
+        }
+        .che .w19 {
+            top: 447px;
+        }
+        .che .w20 {
+            top: 425px;
+        }
+        .che .w21 {
+            top: 405px;
+        }
+        .che .w22 {
+            top: 386px;
+        }
+        .che .w23 {
+            top: 413px;
+        }
+        .che .w24 {
+            top: 396px;
+        }
+        .che .w25 {
+            top: 380px;
+        }
+        .che .w26 {
+            top: 404px;
+        }
+        .che .w27 {
+            margin-left: -5px;
+            top: 0px;
+        }
+        .che .w28 {
+            margin-left: 5px;
+            top: 110px;
+        }
+        .che .w29 {
+            margin-left: -5px;
+            top: 560px;
+        }
+        .che .w30 {
+            margin-left: 5px;
+            top: 590px;
+        }
+        .che .w31 {
+            margin-left: -5px;
+            top: 0px;
+        }
+        .che .w32 {
+            margin-left: 5px;
+            top: 110px;
+        }
+        .che .w33 {
+            margin-left: -5px;
+            top: 160px;
+        }
+        .che .w34 {
+            margin-left: 5px;
+            top: 670px;
+        }
+        .che .w35 {
+            margin-left: -5px;
+            top: 160px;
+        }
+        .che .w36 {
+            margin-left: 5px;
+            top: 270px;
+        }
+        .che .w37 {
+            margin-left: -5px;
+            top: 160px;
+        }
+        .che .w38 {
+            margin-left: 5px;
+            top: 30px;
+        }
+        .che .w2012 {
+            top: 513px;
+            z-index: 3;
+        }
+        .che .w2011 {
+            top: 658px;
+            z-index: 6;
+        }
+        .che .w2010 {
+            top: 566px;
+            z-index: 2;
+        }
+        .che .w2009 {
+            top: 368px;
+            z-index: 1;
+        }
+        .che .w2008 {
+            top: 408px;
+            z-index: 3;
+        }
+        
+        
+        
+    .cry .team {
+        background-position: -200px 0;
+    }
+        .cry .wForm {
+            top: 880px;
+        }
+        .cry .w0 {
+            left: 26%;
+        }
+        .cry .w1 {
+            top: 1500px;
+        }
+        .cry .w2 {
+            top: 1500px;
+        }
+        .cry .w3 {
+            top: 1000px;
+        }
+        .cry .w4 {
+            top: 1125px;
+        }
+        .cry .w5 {
+            top: 1200px;
+        }
+        .cry .w6 {
+            top: 1250px;
+        }
+        .cry .w7 {
+            top: 1286px;
+        }
+        .cry .w8 {
+            top: 1313px;
+        }
+        .cry .w9 {
+            top: 1333px;
+        }
+        .cry .w10 {
+            top: 1350px;
+        }
+        .cry .w11 {
+            top: 1318px;
+        }
+        .cry .w12 {
+            top: 1208px;
+        }
+        .cry .w13 {
+            top: 1231px;
+        }
+        .cry .w14 {
+            top: 1143px;
+        }
+        .cry .w15 {
+            top: 1067px;
+        }
+        .cry .w16 {
+            top: 1094px;
+        }
+        .cry .w17 {
+            top: 1118px;
+        }
+        .cry .w18 {
+            top: 1056px;
+        }
+        .cry .w19 {
+            top: 1079px;
+        }
+        .cry .w20 {
+            top: 1075px;
+        }
+        .cry .w21 {
+            top: 1095px;
+        }
+        .cry .w22 {
+            top: 1045px;
+        }
+        .cry .w23 {
+            top: 1000px;
+        }
+        .cry .w24 {
+            top: 1021px;
+        }
+        .cry .w25 {
+            top: 980px;
+        }
+        .cry .w26 {
+            margin-left: 5px;
+            top: 100px;
+        }
+        .cry .w27 {
+            margin-left: -5px;
+            top: 480px;
+        }
+        .cry .w28 {
+            margin-left: 5px;
+            top: 510px;
+        }
+        .cry .w29 {
+            margin-left: -5px;
+            top: 240px;
+        }
+        .cry .w30 {
+            margin-left: 5px;
+            top: 430px;
+        }
+        .cry .w31 {
+            margin-left: 5px;
+            top: 430px;
+        }
+        .cry .w32 {
+            margin-left: -5px;
+            top: 80px;
+        }
+        .cry .w33 {
+            margin-left: 5px;
+            top: 110px;
+        }
+        .cry .w34 {
+            margin-left: -5px;
+            top: 80px;
+        }
+        .cry .w35 {
+            margin-left: 5px;
+            top: 750px;
+        }
+        .cry .w36 {
+            margin-left: -5px;
+            top: 80px;
+        }
+        .cry .w37 {
+            margin-left: -5px;
+            top: 240px;
+        }
+        .cry .w38 {
+            margin-left: 5px;
+            top: 110px;
+        }
+        
+        
+        
+    .eve .team {
+        background-position: -250px 0;
+    }
+        .eve .wForm {
+            top: 673px;
+        }
+        .eve .w0 {
+            left: 30%;
+        }
+        .eve .w1 {
+            top: 1000px;
+        }
+        .eve .w2 {
+            top: 1000px;
+        }
+        .eve .w3 {
+            top: 1000px;
+        }
+        .eve .w4 {
+            top: 750px;
+        }
+        .eve .w5 {
+            top: 600px;
+        }
+        .eve .w6 {
+            top: 500px;
+        }
+        .eve .w7 {
+            top: 643px;
+        }
+        .eve .w8 {
+            top: 563px;
+        }
+        .eve .w9 {
+            top: 500px;
+        }
+        .eve .w10 {
+            top: 550px;
+        }
+        .eve .w11 {
+            top: 591px;
+        }
+        .eve .w12 {
+            top: 625px;
+        }
+        .eve .w13 {
+            top: 577px;
+        }
+        .eve .w14 {
+            top: 536px;
+        }
+        .eve .w15 {
+            top: 567px;
+        }
+        .eve .w16 {
+            top: 531px;
+        }
+        .eve .w17 {
+            top: 500px;
+        }
+        .eve .w18 {
+            top: 556px;
+        }
+        .eve .w19 {
+            top: 526px;
+        }
+        .eve .w20 {
+            top: 550px;
+        }
+        .eve .w21 {
+            top: 524px;
+        }
+        .eve .w22 {
+            top: 545px;
+        }
+        .eve .w23 {
+            top: 587px;
+        }
+        .eve .w24 {
+            top: 562px;
+        }
+        .eve .w25 {
+            top: 600px;
+        }
+        .eve .w26 {
+            margin-left: -5px;
+            top: 75px;
+        }
+        .eve .w27 {
+            margin-left: 5px;
+            top: 30px;
+        }
+        .eve .w28 {
+            margin-left: -5px;
+            top: 0px;
+        }
+        .eve .w29 {
+            margin-left: 5px;
+            top: 670px;
+        }
+        .eve .w30 {
+            margin-left: -5px;
+            top: 80px;
+        }
+        .eve .w31 {
+            margin-left: -5px;
+            top: 160px;
+        }
+        .eve .w32 {
+            margin-left: 5px;
+            top: 590px;
+        }
+        .eve .w33 {
+            margin-left: -5px;
+            top: 240px;
+        }
+        .eve .w34 {
+            margin-left: 5px;
+            top: 590px;
+        }
+        .eve .w35 {
+            margin-left: -5px;
+            top: 240px;
+        }
+        .eve .w36 {
+            margin-left: 5px;
+            top: 430px;
+        }
+        .eve .w37 {
+            margin-left: -5px;
+            top: 320px;
+        }
+        .eve .w38 {
+            margin-left: 5px;
+            top: 190px;
+        }
+        .eve .w2012 {
+            top: 671px;
+            z-index: 6;
+        }
+        .eve .w2011 {
+            top: 763px;
+            z-index: 7;
+        }
+        .eve .w2010 {
+            top: 789px;
+            z-index: 7;
+        }
+        .eve .w2009 {
+            top: 697px;
+            z-index: 8;
+        }
+        .eve .w2008 {
+            top: 671px;
+            z-index: 5;
+        }
+        
+        
+        
+    .ful .team {
+        background-position: -300px 0;
+    }
+        .ful .wForm {
+            top: 1151px;
+        }
+        .ful .w0 {
+            left: 34%;
+        }
+        .ful .w1 {
+            top: 0px;
+        }
+        .ful .w2 {
+            top: 750px;
+        }
+        .ful .w3 {
+            top: 1000px;
+        }
+        .ful .w4 {
+            top: 1000px;
+        }
+        .ful .w5 {
+            top: 1100px;
+        }
+        .ful .w6 {
+            top: 1167px;
+        }
+        .ful .w7 {
+            top: 1000px;
+        }
+        .ful .w8 {
+            top: 875px;
+        }
+        .ful .w9 {
+            top: 944px;
+        }
+        .ful .w10 {
+            top: 1000px;
+        }
+        .ful .w11 {
+            top: 1045px;
+        }
+        .ful .w12 {
+            top: 1083px;
+        }
+        .ful .w13 {
+            top: 1115px;
+        }
+        .ful .w14 {
+            top: 1143px;
+        }
+        .ful .w15 {
+            top: 1067px;
+        }
+        .ful .w16 {
+            top: 1094px;
+        }
+        .ful .w17 {
+            top: 1118px;
+        }
+        .ful .w18 {
+            top: 1056px;
+        }
+        .ful .w19 {
+            top: 1079px;
+        }
+        .ful .w20 {
+            top: 1025px;
+        }
+        .ful .w21 {
+            top: 1048px;
+        }
+        .ful .w22 {
+            top: 1068px;
+        }
+        .ful .w23 {
+            top: 1087px;
+        }
+        .ful .w24 {
+            top: 1104px;
+        }
+        .ful .w25 {
+            top: 1100px;
+        }
+        .ful .w26 {
+            top: 1115px;
+        }
+        .ful .w27 {
+            margin-left: 5px;
+            top: 350px;
+        }
+        .ful .w28 {
+            margin-left: -5px;
+            top: 80px;
+        }
+        .ful .w29 {
+            margin-left: 5px;
+            top: 190px;
+        }
+        .ful .w30 {
+            margin-left: -5px;
+            top: 160px;
+        }
+        .ful .w31 {
+            margin-left: 5px;
+            top: 350px;
+        }
+        .ful .w32 {
+            margin-left: -5px;
+            top: 560px;
+        }
+        .ful .w33 {
+            margin-left: 5px;
+            top: 30px;
+        }
+        .ful .w34 {
+            margin-left: -5px;
+            top: 160px;
+        }
+        .ful .w35 {
+            margin-left: 5px;
+            top: 670px;
+        }
+        .ful .w36 {
+            margin-left: -5px;
+            top: 160px;
+        }
+        .ful .w37 {
+            margin-left: 5px;
+            top: 590px;
+        }
+        .ful .w38 {
+            margin-left: -5px;
+            top: 80px;
+        }
+        .ful .w2012 {
+            top: 934px;
+            z-index: 12;
+        }
+        .ful .w2011 {
+            top: 816px;
+            z-index: 9;
+        }
+        .ful .w2010 {
+            top: 855px;
+            z-index: 8;
+        }
+        .ful .w2009 {
+            top: 895px;
+            z-index: 12;
+        }
+        .ful .w2008 {
+            top: 803px;
+            z-index: 7;
+        }
+        
+        
+        
+    .hul .team {
+        background-position: -350px 0;
+    }
+        .hul .wForm {
+            top: 995px;
+        }
+        .hul .w0 {
+            left: 38%;
+        }
+        .hul .w1 {
+            top: 1500px;
+        }
+        .hul .w2 {
+            top: 750px;
+        }
+        .hul .w3 {
+            top: 1000px;
+        }
+        .hul .w4 {
+            top: 1000px;
+        }
+        .hul .w5 {
+            top: 800px;
+        }
+        .hul .w6 {
+            top: 667px;
+        }
+        .hul .w7 {
+            top: 714px;
+        }
+        .hul .w8 {
+            top: 813px;
+        }
+        .hul .w9 {
+            top: 889px;
+        }
+        .hul .w10 {
+            top: 800px;
+        }
+        .hul .w11 {
+            top: 864px;
+        }
+        .hul .w12 {
+            top: 917px;
+        }
+        .hul .w13 {
+            top: 846px;
+        }
+        .hul .w14 {
+            top: 893px;
+        }
+        .hul .w15 {
+            top: 900px;
+        }
+        .hul .w16 {
+            top: 906px;
+        }
+        .hul .w17 {
+            top: 912px;
+        }
+        .hul .w18 {
+            top: 944px;
+        }
+        .hul .w19 {
+            top: 895px;
+        }
+        .hul .w20 {
+            top: 925px;
+        }
+        .hul .w21 {
+            top: 952px;
+        }
+        .hul .w22 {
+            top: 977px;
+        }
+        .hul .w23 {
+            top: 1000px;
+        }
+        .hul .w24 {
+            top: 1000px;
+        }
+        .hul .w25 {
+            top: 960px;
+        }
+        .hul .w26 {
+            top: 981px;
+        }
+        .hul .w27 {
+            margin-left: 5px;
+            top: 190px;
+        }
+        .hul .w28 {
+            margin-left: -5px;
+            top: 160px;
+        }
+        .hul .w29 {
+            margin-left: 5px;
+            top: 510px;
+        }
+        .hul .w30 {
+            margin-left: -5px;
+            top: 0px;
+        }
+        .hul .w31 {
+            margin-left: -5px;
+            top: 240px;
+        }
+        .hul .w32 {
+            margin-left: 5px;
+            top: 270px;
+        }
+        .hul .w33 {
+            margin-left: -5px;
+            top: 320px;
+        }
+        .hul .w34 {
+            margin-left: 5px;
+            top: 350px;
+        }
+        .hul .w35 {
+            margin-left: -5px;
+            top: 320px;
+        }
+        .hul .w36 {
+            margin-left: 5px;
+            top: 190px;
+        }
+        .hul .w37 {
+            margin-left: 5px;
+            top: 110px;
+        }
+        .hul .w38 {
+            margin-left: -5px;
+            top: 160px;
+        }
+        .hul .w2009 {
+            top: 1105px;
+            z-index: 19;
+        }
+        .hul .w2008 {
+            top: 1039px;
+            z-index: 17;
+        }
+        
+    .liv .team {
+        background-position: -400px 0;
+    }
+        .liv .wForm {
+            top: 439px;
+        }
+        .liv .w0 {
+            left: 42%;
+        }
+        .liv .w1 {
+            top: 0px;
+        }
+        .liv .w2 {
+            top: 0px;
+        }
+        .liv .w3 {
+            top: 0px;
+        }
+        .liv .w4 {
+            top: 250px;
+        }
+        .liv .w5 {
+            top: 500px;
+        }
+        .liv .w6 {
+            top: 417px;
+        }
+        .liv .w7 {
+            top: 357px;
+        }
+        .liv .w8 {
+            top: 438px;
+        }
+        .liv .w9 {
+            top: 389px;
+        }
+        .liv .w10 {
+            top: 500px;
+        }
+        .liv .w11 {
+            top: 455px;
+        }
+        .liv .w12 {
+            top: 500px;
+        }
+        .liv .w13 {
+            top: 577px;
+        }
+        .liv .w14 {
+            top: 536px;
+        }
+        .liv .w15 {
+            top: 500px;
+        }
+        .liv .w16 {
+            top: 469px;
+        }
+        .liv .w17 {
+            top: 441px;
+        }
+        .liv .w18 {
+            top: 500px;
+        }
+        .liv .w19 {
+            top: 553px;
+        }
+        .liv .w20 {
+            top: 525px;
+        }
+        .liv .w21 {
+            top: 500px;
+        }
+        .liv .w22 {
+            top: 523px;
+        }
+        .liv .w23 {
+            top: 500px;
+        }
+        .liv .w24 {
+            top: 521px;
+        }
+        .liv .w25 {
+            top: 500px;
+        }
+        .liv .w26 {
+            top: 481px;
+        }
+        .liv .w27 {
+            margin-left: -5px;
+            top: 560px;
+        }
+        .liv .w28 {
+            margin-left: 5px;
+            top: 350px;
+        }
+        .liv .w29 {
+            margin-left: -5px;
+            top: 720px;
+        }
+        .liv .w30 {
+            margin-left: 5px;
+            top: 670px;
+        }
+        .liv .w31 {
+            margin-left: 5px;
+            top: 110px;
+        }
+        .liv .w32 {
+            margin-left: -5px;
+            top: 640px;
+        }
+        .liv .w33 {
+            margin-left: 5px;
+            top: 750px;
+        }
+        .liv .w34 {
+            margin-left: -5px;
+            top: 240px;
+        }
+        .liv .w35 {
+            margin-left: 5px;
+            top: 590px;
+        }
+        .liv .w36 {
+            margin-left: -5px;
+            top: 240px;
+        }
+        .liv .w37 {
+            margin-left: 5px;
+            top: 270px;
+        }
+        .liv .w38 {
+            margin-left: -5px;
+            top: 240px;
+        }
+        .liv .w2012 {
+            top: 697px;
+            z-index: 7;
+        }
+        .liv .w2011 {
+            top: 816px;
+            z-index: 8;
+        }
+        .liv .w2010 {
+            top: 737px;
+            z-index: 6;
+        }
+        .liv .w2009 {
+            top: 671px;
+            z-index: 7;
+        }
+        .liv .w2008 {
+            top: 368px;
+            z-index: 2;
+        }
+        
+        
+        
+    .manc .team {
+        background-position: -450px 0;
+    }
+        .manc .wForm {
+            top: 383px;
+        }
+        .manc .w0 {
+            left: 46%;
+        }
+        .manc .w1 {
+            top: 0px;
+        }
+        .manc .w2 {
+            top: 750px;
+        }
+        .manc .w3 {
+            top: 500px;
+        }
+        .manc .w4 {
+            top: 625px;
+        }
+        .manc .w5 {
+            top: 500px;
+        }
+        .manc .w6 {
+            top: 667px;
+        }
+        .manc .w7 {
+            top: 571px;
+        }
+        .manc .w8 {
+            top: 500px;
+        }
+        .manc .w9 {
+            top: 611px;
+        }
+        .manc .w10 {
+            top: 550px;
+        }
+        .manc .w11 {
+            top: 636px;
+        }
+        .manc .w12 {
+            top: 583px;
+        }
+        .manc .w13 {
+            top: 538px;
+        }
+        .manc .w14 {
+            top: 500px;
+        }
+        .manc .w15 {
+            top: 533px;
+        }
+        .manc .w16 {
+            top: 500px;
+        }
+        .manc .w17 {
+            top: 471px;
+        }
+        .manc .w18 {
+            top: 444px;
+        }
+        .manc .w19 {
+            top: 421px;
+        }
+        .manc .w20 {
+            top: 400px;
+        }
+        .manc .w21 {
+            top: 381px;
+        }
+        .manc .w22 {
+            top: 364px;
+        }
+        .manc .w23 {
+            top: 348px;
+        }
+        .manc .w24 {
+            top: 396px;
+        }
+        .manc .w25 {
+            top: 420px;
+        }
+        .manc .w26 {
+            margin-left: -5px;
+            top: 150px;
+        }
+        .manc .w27 {
+            margin-left: -5px;
+            top: 240px;
+        }
+        .manc .w28 {
+            margin-left: 5px;
+            left: 1600px;
+            top: 830px;
+        }
+        .manc .w29 {
+            margin-left: -5px;
+            top: 320px;
+        }
+        .manc .w30 {
+            margin-left: 5px;
+            top: 30px;
+        }
+        .manc .w31 {
+            margin-left: -5px;
+            top: 320px;
+        }
+        .manc .w32 {
+            margin-left: 5px;
+            top: 510px;
+        }
+        .manc .w33 {
+            margin-left: -5px;
+            top: 400px;
+        }
+        .manc .w34 {
+            margin-left: 5px;
+            top: 270px;
+        }
+        .manc .w35 {
+            margin-left: -5px;
+            top: 400px;
+        }
+        .manc .w36 {
+            margin-left: 5px;
+            top: 110px;
+        }
+        .manc .w37 {
+            margin-left: 5px;
+            top: 350px;
+        }
+        .manc .w38 {
+            margin-left: -5px;
+            top: 320px;
+        }
+        .manc .w2012 {
+            top: 474px;
+            z-index: 2;
+        }
+        .manc .w2011 {
+            top: 329px;
+            z-index: 1;
+        }
+        .manc .w2010 {
+            top: 566px;
+            z-index: 3;
+        }
+        .manc .w2009 {
+            top: 618px;
+            z-index: 5;
+        }
+        .manc .w2008 {
+            top: 842px;
+            z-index: 10;
+        }
+        
+        
+        										
+    .manu .team {
+        background-position: -500px 0;
+    }
+        .manu .wForm {
+            top: 712px;
+        }
+        .manu .w0 {
+            left: 50%;
+        }
+        .manu .w1 {
+            top: 0px;
+        }
+        .manu .w2 {
+            top: 500px;
+        }
+        .manu .w3 {
+            top: 833px;
+        }
+        .manu .w4 {
+            top: 625px;
+        }
+        .manu .w5 {
+            top: 800px;
+        }
+        .manu .w6 {
+            top: 917px;
+        }
+        .manu .w7 {
+            top: 786px;
+        }
+        .manu .w8 {
+            top: 813px;
+        }
+        .manu .w9 {
+            top: 722px;
+        }
+        .manu .w10 {
+            top: 650px;
+        }
+        .manu .w11 {
+            top: 591px;
+        }
+        .manu .w12 {
+            top: 625px;
+        }
+        .manu .w13 {
+            top: 654px;
+        }
+        .manu .w14 {
+            top: 714px;
+        }
+        .manu .w15 {
+            top: 767px;
+        }
+        .manu .w16 {
+            top: 719px;
+        }
+        .manu .w17 {
+            top: 676px;
+        }
+        .manu .w18 {
+            top: 639px;
+        }
+        .manu .w19 {
+            top: 605px;
+        }
+        .manu .w20 {
+            top: 650px;
+        }
+        .manu .w21 {
+            top: 619px;
+        }
+        .manu .w22 {
+            top: 659px;
+        }
+        .manu .w23 {
+            top: 630px;
+        }
+        .manu .w24 {
+            top: 667px;
+        }
+        .manu .w25 {
+            top: 680px;
+        }
+        .manu .w26 {
+            top: 692px;
+        }
+        .manu .w27 {
+            margin-left: 5px;
+            top: 510px;
+        }
+        .manu .w28 {
+            margin-left: -5px;
+            left: 1600px;
+            top: 800px;
+        }
+        .manu .w29 {
+            margin-left: 5px;
+            top: 30px;
+        }
+        .manu .w30 {
+            margin-left: -5px;
+            top: 640px;
+        }
+        .manu .w31 {
+            margin-left: 5px;
+            top: 590px;
+        }
+        .manu .w32 {
+            margin-left: -5px;
+            top: 0px;
+        }
+        .manu .w33 {
+            margin-left: 5px;
+            top: 510px;
+        }
+        .manu .w34 {
+            margin-left: -5px;
+            top: 320px;
+        }
+        .manu .w35 {
+            margin-left: 5px;
+            top: 270px;
+        }
+        .manu .w36 {
+            margin-left: -5px;
+            top: 320px;
+        }
+        .manu .w37 {
+            margin-left: -5px;
+            top: 400px;
+        }
+        .manu .w38 {
+            margin-left: 5px;
+            top: 510px;
+        }
+        .manu .w2012 {
+            top: 329px;
+            z-index: 1;
+        }
+        .manu .w2011 {
+            top: 329px;
+            z-index: 2;
+        }
+        .manu .w2010 {
+            top: 447px;
+            z-index: 1;
+        }
+        .manu .w2009 {
+            top: 382px;
+            z-index: 2;
+        }
+        .manu .w2008 {
+            top: 316px;
+            z-index: 1;
+        }
+        
+        
+        
+    .new .team {
+        background-position: -550px 0;
+    }
+        .new .wForm {
+            top: 928px;
+        }
+        .new .w0 {
+            left: 54%;
+        }
+        .new .w1 {
+            top: 1500px;
+        }
+        .new .w2 {
+            top: 1250px;
+        }
+        .new .w3 {
+            top: 833px;
+        }
+        .new .w4 {
+            top: 625px;
+        }
+        .new .w5 {
+            top: 800px;
+        }
+        .new .w6 {
+            top: 917px;
+        }
+        .new .w7 {
+            top: 786px;
+        }
+        .new .w8 {
+            top: 813px;
+        }
+        .new .w9 {
+            top: 889px;
+        }
+        .new .w10 {
+            top: 800px;
+        }
+        .new .w11 {
+            top: 727px;
+        }
+        .new .w12 {
+            top: 667px;
+        }
+        .new .w13 {
+            top: 615px;
+        }
+        .new .w14 {
+            top: 679px;
+        }
+        .new .w15 {
+            top: 633px;
+        }
+        .new .w16 {
+            top: 656px;
+        }
+        .new .w17 {
+            top: 618px;
+        }
+        .new .w18 {
+            top: 583px;
+        }
+        .new .w19 {
+            top: 632px;
+        }
+        .new .w20 {
+            top: 675px;
+        }
+        .new .w21 {
+            top: 714px;
+        }
+        .new .w22 {
+            top: 682px;
+        }
+        .new .w23 {
+            top: 696px;
+        }
+        .new .w24 {
+            top: 729px;
+        }
+        .new .w25 {
+            top: 760px;
+        }
+        .new .w26 {
+            top: 788px;
+        }
+        .new .w27 {
+            margin-left: -5px;
+            top: 640px;
+        }
+        .new .w28 {
+            margin-left: 5px;
+            top: 190px;
+        }
+        .new .w29 {
+            margin-left: -5px;
+            top: 640px;
+        }
+        .new .w30 {
+            margin-left: 5px;
+            top: 190px;
+        }
+        .new .w31 {
+            margin-left: -5px;
+            top: 400px;
+        }
+        .new .w32 {
+            margin-left: 5px;
+            top: 190px;
+        }
+        .new .w33 {
+            margin-left: -5px;
+            top: 480px;
+        }
+        .new .w34 {
+            margin-left: 5px;
+            top: 510px;
+        }
+        .new .w35 {
+            margin-left: -5px;
+            top: 480px;
+        }
+        .new .w36 {
+            margin-left: 5px;
+            top: 30px;
+        }
+        .new .w37 {
+            margin-left: -5px;
+            top: 480px;
+        }
+        .new .w38 {
+            margin-left: 5px;
+            top: 270px;
+        }
+        .new .w2012 {
+            top: 961px;
+            z-index: 16;
+        }
+        .new .w2011 {
+            top: 645px;
+            z-index: 5;
+        }
+        .new .w2010 {
+            top: 895px;
+            z-index: 12;
+        }
+        .new .w2008 {
+            top: 1053px;
+            z-index: 18;
+        }
+        
+    .nor .team {
+        background-position: -600px 0;
+    }
+        .nor .wForm {
+            top: 1043px;
+        }
+        .nor .w0 {
+            left: 58%;
+        }
+        .nor .w1 {
+            top: 1000px;
+        }
+        .nor .w2 {
+            top: 1250px;
+        }
+        .nor .w3 {
+            top: 833px;
+        }
+        .nor .w4 {
+            top: 1000px;
+        }
+        .nor .w5 {
+            top: 1100px;
+        }
+        .nor .w6 {
+            top: 917px;
+        }
+        .nor .w7 {
+            top: 1000px;
+        }
+        .nor .w8 {
+            top: 1063px;
+        }
+        .nor .w9 {
+            top: 1056px;
+        }
+        .nor .w10 {
+            top: 1100px;
+        }
+        .nor .w11 {
+            top: 1000px;
+        }
+        .nor .w12 {
+            top: 1042px;
+        }
+        .nor .w13 {
+            top: 962px;
+        }
+        .nor .w14 {
+            top: 1000px;
+        }
+        .nor .w15 {
+            top: 933px;
+        }
+        .nor .w16 {
+            top: 938px;
+        }
+        .nor .w17 {
+            top: 941px;
+        }
+        .nor .w18 {
+            top: 972px;
+        }
+        .nor .w19 {
+            top: 1000px;
+        }
+        .nor .w20 {
+            top: 1000px;
+        }
+        .nor .w21 {
+            top: 1024px;
+        }
+        .nor .w22 {
+            top: 977px;
+        }
+        .nor .w23 {
+            top: 978px;
+        }
+        .nor .w24 {
+            top: 1000px;
+        }
+        .nor .w25 {
+            top: 1000px;
+        }
+        .nor .w26 {
+            top: 1019px;
+        }
+        .nor .w27 {
+            margin-left: -5px;
+            top: 720px;
+        }
+        .nor .w28 {
+            margin-left: 5px;
+            top: 430px;
+        }
+        .nor .w29 {
+            margin-left: -5px;
+            top: 400px;
+        }
+        .nor .w30 {
+            margin-left: 5px;
+            top: 270px;
+        }
+        .nor .w31 {
+            margin-left: -5px;
+            top: 480px;
+        }
+        .nor .w32 {
+            margin-left: 5px;
+            top: 350px;
+        }
+        .nor .w33 {
+            margin-left: -5px;
+            top: 560px;
+        }
+        .nor .w34 {
+            margin-left: 5px;
+            top: 190px;
+        }
+        .nor .w35 {
+            margin-left: -5px;
+            top: 560px;
+        }
+        .nor .w36 {
+            margin-left: 5px;
+            top: 350px;
+        }
+        .nor .w37 {
+            margin-left: 5px;
+            top: 190px;
+        }
+        .nor .w38 {
+            margin-left: -5px;
+            top: 400px;
+        }
+        .nor .w2012 {
+            top: 921px;
+            z-index: 11;
+        }
+        .nor .w2011 {
+            top: 882px;
+            z-index: 12;
+        }
+        
+        
+        
+    .sou .team {
+        background-position: -650px 0;
+    }
+        .sou .wForm {
+            top: 730px;
+        }
+        .sou .w0 {
+            left: 62%;
+        }
+        .sou .w1 {
+            top: 0px;
+        }
+        .sou .w2 {
+            top: 500px;
+        }
+        .sou .w3 {
+            top: 833px;
+        }
+        .sou .w4 {
+            top: 875px;
+        }
+        .sou .w5 {
+            top: 700px;
+        }
+        .sou .w6 {
+            top: 583px;
+        }
+        .sou .w7 {
+            top: 500px;
+        }
+        .sou .w8 {
+            top: 563px;
+        }
+        .sou .w9 {
+            top: 500px;
+        }
+        .sou .w10 {
+            top: 550px;
+        }
+        .sou .w11 {
+            top: 500px;
+        }
+        .sou .w12 {
+            top: 583px;
+        }
+        .sou .w13 {
+            top: 654px;
+        }
+        .sou .w14 {
+            top: 714px;
+        }
+        .sou .w15 {
+            top: 733px;
+        }
+        .sou .w16 {
+            top: 750px;
+        }
+        .sou .w17 {
+            top: 794px;
+        }
+        .sou .w18 {
+            top: 750px;
+        }
+        .sou .w19 {
+            top: 789px;
+        }
+        .sou .w20 {
+            top: 825px;
+        }
+        .sou .w21 {
+            top: 786px;
+        }
+        .sou .w22 {
+            top: 795px;
+        }
+        .sou .w23 {
+            top: 804px;
+        }
+        .sou .w24 {
+            top: 771px;
+        }
+        .sou .w25 {
+            top: 780px;
+        }
+        .sou .w26 {
+            top: 750px;
+        }
+        .sou .w27 {
+            margin-left: 5px;
+            top: 430px;
+        }
+        .sou .w28 {
+            margin-left: -5px;
+            top: 320px;
+        }
+        .sou .w29 {
+            margin-left: 5px;
+            top: 270px;
+        }
+        .sou .w30 {
+            margin-left: -5px;
+            top: 240px;
+        }
+        .sou .w31 {
+            margin-left: 5px;
+            top: 670px;
+        }
+        .sou .w32 {
+            margin-left: -5px;
+            top: 160px;
+        }
+        .sou .w33 {
+            margin-left: 5px;
+            top: 430px;
+        }
+        .sou .w34 {
+            margin-left: -5px;
+            top: 400px;
+        }
+        .sou .w35 {
+            margin-left: 5px;
+            top: 30px;
+        }
+        .sou .w36 {
+            margin-left: -5px;
+            top: 400px;
+        }
+        .sou .w37 {
+            margin-left: 5px;
+            top: 670px;
+        }
+        .sou .w38 {
+            margin-left: -5px;
+            top: 480px;
+        }
+        
+        .sou .wWWW {
+            margin-left: 10px;
+            top: 395px;
+        }
+        .sou .wLLL {
+            margin-left: -10px;
+            top: 1092px;
+        }
+        .sou .w2012 {
+            top: 961px;
+            z-index: 14;
+        }
+        
+        
+    .sto .team {
+        background-position: -700px 0;
+    }
+        .sto .wForm {
+            top: 1061px;
+        }
+        .sto .w0 {
+            left: 66%;
+        }
+        .sto .w1 {
+            top: 1500px;
+        }
+        .sto .w2 {
+            top: 750px;
+        }
+        .sto .w3 {
+            top: 500px;
+        }
+        .sto .w4 {
+            top: 625px;
+        }
+        .sto .w5 {
+            top: 800px;
+        }
+        .sto .w6 {
+            top: 917px;
+        }
+        .sto .w7 {
+            top: 1000px;
+        }
+        .sto .w8 {
+            top: 1000px;
+        }
+        .sto .w9 {
+            top: 1056px;
+        }
+        .sto .w10 {
+            top: 1050px;
+        }
+        .sto .w11 {
+            top: 1045px;
+        }
+        .sto .w12 {
+            top: 958px;
+        }
+        .sto .w13 {
+            top: 1000px;
+        }
+        .sto .w14 {
+            top: 1000px;
+        }
+        .sto .w15 {
+            top: 933px;
+        }
+        .sto .w16 {
+            top: 938px;
+        }
+        .sto .w17 {
+            top: 882px;
+        }
+        .sto .w18 {
+            top: 917px;
+        }
+        .sto .w19 {
+            top: 947px;
+        }
+        .sto .w20 {
+            top: 950px;
+        }
+        .sto .w21 {
+            top: 976px;
+        }
+        .sto .w22 {
+            top: 1000px;
+        }
+        .sto .w23 {
+            top: 1022px;
+        }
+        .sto .w24 {
+            top: 979px;
+        }
+        .sto .w25 {
+            top: 980px;
+        }
+        .sto .w26 {
+            top: 981px;
+        }
+        .sto .w27 {
+            margin-left: 5px;
+            top: 270px;
+        }
+        .sto .w28 {
+            margin-left: -5px;
+            top: 240px;
+        }
+        .sto .w29 {
+            margin-left: 5px;
+            top: 430px;
+        }
+        .sto .w30 {
+            margin-left: -5px;
+            top: 320px;
+        }
+        .sto .w31 {
+            margin-left: 5px;
+            top: 750px;
+        }
+        .sto .w32 {
+            margin-left: -5px;
+            top: 240px;
+        }
+        .sto .w33 {
+            margin-left: 5px;
+            top: 190px;
+        }
+        .sto .w34 {
+            margin-left: -5px;
+            top: 480px;
+        }
+        .sto .w35 {
+            margin-left: 5px;
+            top: 110px;
+        }
+        .sto .w36 {
+            margin-left: -5px;
+            top: 480px;
+        }
+        .sto .w37 {
+            margin-left: -5px;
+            top: 560px;
+        }
+        .sto .w38 {
+            margin-left: 5px;
+            top: 750px;
+        }
+        .sto .w2012 {
+            top: 947px;
+            z-index: 13;
+        }
+        .sto .w2011 {
+            top: 908px;
+            z-index: 14;
+        }
+        .sto .w2010 {
+            top: 895px;
+            z-index: 13;
+        }
+        .sto .w2009 {
+            top: 882px;
+            z-index: 11;
+        }
+        .sto .w2008 {
+            top: 908px;
+            z-index: 12;
+        }
+        
+    .sun .team {
+        background-position: -750px 0;
+    }
+        .sun .wForm {
+            top: 885px;
+        }
+        .sun .w0 {
+            left: 70%;
+        }
+        .sun .w1 {
+            top: 1500px;
+        }
+        .sun .w2 {
+            top: 1250px;
+        }
+        .sun .w3 {
+            top: 1333px;
+        }
+        .sun .w4 {
+            top: 1375px;
+        }
+        .sun .w5 {
+            top: 1400px;
+        }
+        .sun .w6 {
+            top: 1417px;
+        }
+        .sun .w7 {
+            top: 1429px;
+        }
+        .sun .w8 {
+            top: 1438px;
+        }
+        .sun .w9 {
+            top: 1278px;
+        }
+        .sun .w10 {
+            top: 1300px;
+        }
+        .sun .w11 {
+            top: 1182px;
+        }
+        .sun .w12 {
+            top: 1208px;
+        }
+        .sun .w13 {
+            top: 1192px;
+        }
+        .sun .w14 {
+            top: 1214px;
+        }
+        .sun .w15 {
+            top: 1233px;
+        }
+        .sun .w16 {
+            top: 1219px;
+        }
+        .sun .w17 {
+            top: 1206px;
+        }
+        .sun .w18 {
+            top: 1139px;
+        }
+        .sun .w19 {
+            top: 1132px;
+        }
+        .sun .w20 {
+            top: 1150px;
+        }
+        .sun .w21 {
+            top: 1095px;
+        }
+        .sun .w22 {
+            top: 1091px;
+        }
+        .sun .w23 {
+            top: 1043px;
+        }
+        .sun .w24 {
+            top: 1000px;
+        }
+        .sun .w25 {
+            top: 1020px;
+        }
+        .sun .w26 {
+            margin-left: 5px;
+            top: 175px;
+        }
+        .sun .w27 {
+            margin-left: 5px;
+            top: 110px;
+        }
+        .sun .w28 {
+            margin-left: -5px;
+            top: -240px;
+        }
+        .sun .w29 {
+            margin-left: 5px;
+            top: 750px;
+        }
+        .sun .w30 {
+            margin-left: -5px;
+            top: 400px;
+        }
+        .sun .w31 {
+            margin-left: 5px;
+            top: 510px;
+        }
+        .sun .w32 {
+            margin-left: -5px;
+            top: 720px;
+        }
+        .sun .w33 {
+            margin-left: 5px;
+            top: 670px;
+        }
+        .sun .w34 {
+            margin-left: -5px;
+            top: 560px;
+        }
+        .sun .w35 {
+            margin-left: 5px;
+            top: 190px;
+        }
+        .sun .w36 {
+            margin-left: -5px;
+            top: 560px;
+        }
+        .sun .w37 {
+            margin-left: 5px;
+            top: 430px;
+        }
+        .sun .w38 {
+            margin-left: -5px;
+            top: 560px;
+        }
+        .sun .w2012 {
+            top: 987px;
+            z-index: 17;
+        }
+        .sun .w2011 {
+            top: 908px;
+            z-index: 13;
+        }
+        .sun .w2010 {
+            top: 882px;
+            z-index: 10;
+        }
+        .sun .w2009 {
+            top: 921px;
+            z-index: 13;
+        }
+        .sun .w2008 {
+            top: 1026px;
+            z-index: 16;
+        }
+        
+        
+        
+    .swa .team {
+        background-position: -800px 0;
+    }
+        .swa .wForm {
+            top: 961px;
+        }
+        .swa .w0 {
+            left: 74%;
+        }
+        .swa .w1 {
+            top: 1500px;
+        }
+        .swa .w2 {
+            top: 1500px;
+        }
+        .swa .w3 {
+            top: 1000px;
+        }
+        .swa .w4 {
+            top: 1000px;
+        }
+        .swa .w5 {
+            top: 800px;
+        }
+        .swa .w6 {
+            top: 917px;
+        }
+        .swa .w7 {
+            top: 1000px;
+        }
+        .swa .w8 {
+            top: 875px;
+        }
+        .swa .w9 {
+            top: 889px;
+        }
+        .swa .w10 {
+            top: 950px;
+        }
+        .swa .w11 {
+            top: 955px;
+        }
+        .swa .w12 {
+            top: 875px;
+        }
+        .swa .w13 {
+            top: 923px;
+        }
+        .swa .w14 {
+            top: 857px;
+        }
+        .swa .w15 {
+            top: 867px;
+        }
+        .swa .w16 {
+            top: 875px;
+        }
+        .swa .w17 {
+            top: 912px;
+        }
+        .swa .w18 {
+            top: 944px;
+        }
+        .swa .w19 {
+            top: 947px;
+        }
+        .swa .w20 {
+            top: 975px;
+        }
+        .swa .w21 {
+            top: 1000px;
+        }
+        .swa .w22 {
+            top: 1023px;
+        }
+        .swa .w23 {
+            top: 978px;
+        }
+        .swa .w24 {
+            top: 1000px;
+        }
+        .swa .w25 {
+            top: 960px;
+        }
+        .swa .w26 {
+            top: 962px;
+        }
+        .swa .w27 {
+            margin-left: 5px;
+            top: 590px;
+        }
+        .swa .w28 {
+            margin-left: -5px;
+            top: 480px;
+        }
+        .swa .w29 {
+            margin-left: 5px;
+            top: 110px;
+        }
+        .swa .w30 {
+            margin-left: -5px;
+            top: 480px;
+        }
+        .swa .w31 {
+            margin-left: 5px;
+            top: 190px;
+        }
+        .swa .w32 {
+            margin-left: -5px;
+            top: 320px;
+        }
+        .swa .w33 {
+            margin-left: 5px;
+            top: 350px;
+        }
+        .swa .w34 {
+            margin-left: -5px;
+            top: 640px;
+        }
+        .swa .w35 {
+            margin-left: 5px;
+            top: 510px;
+        }
+        .swa .w36 {
+            margin-left: -5px;
+            top: 640px;
+        }
+        .swa .w37 {
+            margin-left: -5px;
+            top: 640px;
+        }
+        .swa .w38 {
+            margin-left: 5px;
+            top: 590px;
+        }
+        .swa .w2012 {
+            top: 895px;
+            z-index: 9;
+        }
+        .swa .w2011 {
+            top: 882px;
+            z-index: 11;
+        }
+        
+    .tot .team {
+        background-position: -850px 0;
+    }
+        .tot .wForm {
+            top: 436px;
+        }
+        .tot .w0 {
+            left: 78%;
+        }
+        .tot .w1 {
+            top: 0px;
+        }
+        .tot .w2 {
+            top: 0px;
+        }
+        .tot .w3 {
+            top: 500px;
+        }
+        .tot .w4 {
+            top: 375px;
+        }
+        .tot .w5 {
+            top: 300px;
+        }
+        .tot .w6 {
+            top: 417px;
+        }
+        .tot .w7 {
+            top: 571px;
+        }
+        .tot .w8 {
+            top: 500px;
+        }
+        .tot .w9 {
+            top: 444px;
+        }
+        .tot .w10 {
+            top: 500px;
+        }
+        .tot .w11 {
+            top: 591px;
+        }
+        .tot .w12 {
+            top: 667px;
+        }
+        .tot .w13 {
+            top: 692px;
+        }
+        .tot .w14 {
+            top: 643px;
+        }
+        .tot .w15 {
+            top: 600px;
+        }
+        .tot .w16 {
+            top: 656px;
+        }
+        .tot .w17 {
+            top: 618px;
+        }
+        .tot .w18 {
+            top: 639px;
+        }
+        .tot .w19 {
+            top: 605px;
+        }
+        .tot .w20 {
+            top: 575px;
+        }
+        .tot .w21 {
+            top: 548px;
+        }
+        .tot .w22 {
+            top: 523px;
+        }
+        .tot .w23 {
+            top: 565px;
+        }
+        .tot .w24 {
+            top: 583px;
+        }
+        .tot .w25 {
+            top: 560px;
+        }
+        .tot .w26 {
+            top: 538px;
+        }
+        .tot .w27 {
+            margin-left: 5px;
+            top: 750px;
+        }
+        .tot .w28 {
+            margin-left: -5px;
+            top: 560px;
+        }
+        .tot .w29 {
+            margin-left: 5px;
+            top: 590px;
+        }
+        .tot .w30 {
+            margin-left: -5px;
+            top: 720px;
+        }
+        .tot .w31 {
+            margin-left: -5px;
+            top: 640px;
+        }
+        .tot .w32 {
+            margin-left: 5px;
+            top: 670px;
+        }
+        .tot .w33 {
+            margin-left: -5px;
+            top: 640px;
+        }
+        .tot .w34 {
+            margin-left: 5px;
+            top: 750px;
+        }
+        .tot .w35 {
+            margin-left: -5px;
+            top: 640px;
+        }
+        .tot .w36 {
+            margin-left: 5px;
+            top: 510px;
+        }
+        .tot .w37 {
+            margin-left: 5px;
+            top: 750px;
+        }
+        .tot .w38 {
+            margin-left: -5px;
+            top: 640px;
+        }
+        .tot .w2012 {
+            top: 553px;
+            z-index: 5;
+        }
+        .tot .w2011 {
+            top: 592px;
+            z-index: 4;
+        }
+        .tot .w2010 {
+            top: 684px;
+            z-index: 5;
+        }
+        .tot .w2009 {
+            top: 579px;
+            z-index: 4;
+        }
+        .tot .w2008 {
+            top: 829px;
+            z-index: 8;
+        }
+        
+        
+    .westb .team {
+        background-position: -900px 0;
+    }
+        .westb .wForm {
+            top: 1035px;
+        }
+        .westb .w0 {
+            left: 82%;
+        }
+        .westb .w1 {
+            top: 1500px;
+        }
+        .westb .w2 {
+            top: 1250px;
+        }
+        .westb .w3 {
+            top: 1333px;
+        }
+        .westb .w4 {
+            top: 1250px;
+        }
+        .westb .w5 {
+            top: 1000px;
+        }
+        .westb .w6 {
+            top: 833px;
+        }
+        .westb .w7 {
+            top: 857px;
+        }
+        .westb .w8 {
+            top: 875px;
+        }
+        .westb .w9 {
+            top: 944px;
+        }
+        .westb .w10 {
+            top: 850px;
+        }
+        .westb .w11 {
+            top: 864px;
+        }
+        .westb .w12 {
+            top: 875px;
+        }
+        .westb .w13 {
+            top: 923px;
+        }
+        .westb .w14 {
+            top: 964px;
+        }
+        .westb .w15 {
+            top: 1000px;
+        }
+        .westb .w16 {
+            top: 1031px;
+        }
+        .westb .w17 {
+            top: 1029px;
+        }
+        .westb .w18 {
+            top: 1028px;
+        }
+        .westb .w19 {
+            top: 1026px;
+        }
+        .westb .w20 {
+            top: 975px;
+        }
+        .westb .w21 {
+            top: 1000px;
+        }
+        .westb .w22 {
+            top: 1000px;
+        }
+        .westb .w23 {
+            top: 1022px;
+        }
+        .westb .w24 {
+            top: 1021px;
+        }
+        .westb .w25 {
+            top: 1040px;
+        }
+        .westb .w26 {
+            top: 1038px;
+        }
+        .westb .w27 {
+            margin-left: -5px;
+            top: 320px;
+        }
+        .westb .w28 {
+            margin-left: 5px;
+            top: -210px;
+        }
+        .westb .w29 {
+            margin-left: -5px;
+            top: 0px;
+        }
+        .westb .w30 {
+            margin-left: 5px;
+            top: 510px;
+        }
+        .westb .w31 {
+            margin-left: 5px;
+            top: 270px;
+        }
+        .westb .w32 {
+            margin-left: -5px;
+            top: 400px;
+        }
+        .westb .w33 {
+            margin-left: 5px;
+            top: 590px;
+        }
+        .westb .w34 {
+            margin-left: -5px;
+            top: 720px;
+        }
+        .westb .w35 {
+            margin-left: 5px;
+            top: 430px;
+        }
+        .westb .w36 {
+            margin-left: -5px;
+            top: 720px;
+        }
+        .westb .w37 {
+            margin-left: 5px;
+            top: 30px;
+        }
+        .westb .w38 {
+            margin-left: -5px;
+            top: 720px;
+        }
+        .westb .w2012 {
+            top: 855px;
+            z-index: 8;
+        }
+        .westb .w2011 {
+            top: 882px;
+            z-index: 10;
+        }
+        .westb .w2010 {
+            top: 882px;
+            z-index: 11;
+        }
+        .westb .w2008 {
+            top: 1079px;
+            z-index: 20;
+        }
+        
+        
+        
+    .westh .team {
+        background-position: -950px 0;
+    }
+        .westh .wForm {
+            top: 832px;
+        }
+        .westh .w0 {
+            left: 86%;
+        }
+        .westh .w1 {
+            top: 0px;
+        }
+        .westh .w2 {
+            top: 500px;
+        }
+        .westh .w3 {
+            top: 833px;
+        }
+        .westh .w4 {
+            top: 875px;
+        }
+        .westh .w5 {
+            top: 1000px;
+        }
+        .westh .w6 {
+            top: 1083px;
+        }
+        .westh .w7 {
+            top: 929px;
+        }
+        .westh .w8 {
+            top: 1000px;
+        }
+        .westh .w9 {
+            top: 1000px;
+        }
+        .westh .w10 {
+            top: 1000px;
+        }
+        .westh .w11 {
+            top: 1045px;
+        }
+        .westh .w12 {
+            top: 1083px;
+        }
+        .westh .w13 {
+            top: 1000px;
+        }
+        .westh .w14 {
+            top: 1036px;
+        }
+        .westh .w15 {
+            top: 1067px;
+        }
+        .westh .w16 {
+            top: 1063px;
+        }
+        .westh .w17 {
+            top: 1088px;
+        }
+        .westh .w18 {
+            top: 1111px;
+        }
+        .westh .w19 {
+            top: 1105px;
+        }
+        .westh .w20 {
+            top: 1125px;
+        }
+        .westh .w21 {
+            top: 1071px;
+        }
+        .westh .w22 {
+            top: 1091px;
+        }
+        .westh .w23 {
+            top: 1087px;
+        }
+        .westh .w24 {
+            top: 1042px;
+        }
+        .westh .w25 {
+            top: 1000px;
+        }
+        .westh .w26 {
+            top: 962px;
+        }
+        .westh .w27 {
+            margin-left: -5px;
+            top: 400px;
+        }
+        .westh .w28 {
+            margin-left: 5px;
+            top: 30px;
+        }
+        .westh .w29 {
+            margin-left: -5px;
+            top: 480px;
+        }
+        .westh .w30 {
+            margin-left: 5px;
+            top: 350px;
+        }
+        .westh .w31 {
+            margin-left: -5px;
+            top: 560px;
+        }
+        .westh .w32 {
+            margin-left: 5px;
+            top: 750px;
+        }
+        .westh .w33 {
+            margin-left: -5px;
+            top: 720px;
+        }
+        .westh .w34 {
+            margin-left: 5px;
+            top: 30px;
+        }
+        .westh .w35 {
+            margin-left: -5px;
+            top: 720px;
+        }
+        .westh .w36 {
+            margin-left: 5px;
+            top: 750px;
+        }
+        .westh .w37 {
+            margin-left: -5px;
+            top: 720px;
+        }
+        .westh .w38 {
+            margin-left: 5px;
+            top: 350px;
+        }
+        .westh .w2012 {
+            top: 895px;
+            z-index: 10;
+        }
+        .westh .w2010 {
+            top: 1066px;
+            z-index: 20;
+        }
+        .westh .w2009 {
+            top: 1039px;
+            z-index: 17;
+        }
+        .westh .w2008 {
+            top: 829px;
+            z-index: 9;
+        }
+        
+        
+        
+    .wig .team {
+        background-position: -750px -50px;
+    }
+        .wig .w2012 {
+            top: 1026px;
+        }
+        
+    .rea .team {
+        background-position: -800px -50px;
+    }
+        .rea .w2012 {
+            top: 1132px;
+        }
+        
+    .qpr .team {
+        background-position: -850px -50px;
+    }
+        .qpr .w2012 {
+            top: 1171px;
+        }
+        
+    .bol .team {
+        background-position: -950px -50px;
+    }
+        .bol .w2011 {
+            top: 1026px;
+        }
+        
+    .blab .team {
+        background-position: -700px -50px;
+    }
+        .blab .w2011 {
+            top: 1092px;
+        }
+        
+    .wol .team {
+        background-position: -900px -50px;
+    }
+        .wol .w2011 {
+            top: 1171px;
+        }
+        
+    .bir .team {
+        background-position: -550px -50px;
+    }
+        .bir .w2010 {
+            top: 987px;
+        }
+        
+    .blap .team {
+        background-position: -650px -50px;
+    }
+        .blap .w2010 {
+            top: 987px;
+        }
+        
+    .bur .team {
+        background-position: -500px -50px;
+    }
+        .bur .w2009 {
+            top: 1105px;
+        }
+        
+    .por .team {
+        background-position: -500px -100px;
+    }
+        .por .w2009 {
+            top: 1250px;
+        }
+        
+    .mid .team {
+        background-position: -600px -50px;
+    }
+        .mid .w2008 {
+            top: 1079px;
+        }
+        
+    .team .relegated {
+        background-position: -1000px -100px;
+        opacity: 0.8;
+        top: 0px;
+    }
+
+/* Lines */
+
+hr {
+    background-color: white;
+    border: 0px;
+    display: block;
+    height: 2px;
+    opacity: 0.2;
+    position: absolute;
+    width: 1735px;
+}
+
+   
+    hr.twohalfpt {
+        top: 266px;
+    }
+    hr.twopt {
+        top: 516px;
+    }
+    hr.onehalfpt {
+        top: 766px;
+    }
+    hr.onept {
+        top: 1016px;
+    }
+    hr.zerohalfpt {
+        top: 1266px;
+    }
+    hr.zeropt {
+        top: 1516px;
+    }
+    
+    hr.fortypts {
+        background-color: red;
+        top: 990px;
+    }
+
+    hr.l {
+        height: 1px;
+        opacity: 0.1;
+    }
+    hr.ld {
+        height: 1px;
+        opacity: 0.2;
+    }
+
+    hr.l5 {
+        top: 1450px;
+    }
+    hr.l10 {
+        top: 1384px;
+    }
+    hr.l15 {
+        top: 1319px;
+    }
+    hr.l20 {
+        top: 1253px;
+    }
+    hr.l25 {
+        top: 1185px;
+    }
+    hr.l30 {
+        top: 1118px;
+    }
+    hr.l35 {
+        top: 1051px;
+    }
+    hr.l45 {
+        top: 924px;
+    }
+    hr.l50 {
+        top: 858px;
+    }
+    hr.l55 {
+        top: 792px;
+    }
+    hr.l60 {
+        top: 727px;
+    }
+    hr.l65 {
+        top: 661px;
+    }
+    hr.l70 {
+        top: 595px;
+    }
+    hr.l75 {
+        top: 529px;
+    }
+    hr.l80 {
+        top: 463px;
+    }
+    hr.l85 {
+        top: 398px;
+    }
+    hr.l90 {
+        top: 332px;
+    }
+    hr.l95 {
+        top: 266px;
+    }
+    hr.l100 {
+        top: 200px;
+    }
+    hr.l105 {
+        top: 134px;
+    }
+    hr.l110 {
+        top: 69px;
+    }
+
+/* Managers */
+
+/* #newmanagers:hover .team,
+#changedmanagers:hover .team {
+    opacity: 1.0;
+} */
+
+    .team.manout {
+        background-position: -900px -50px;
+    }
+    .team.manin {
+        background-position: -950px -50px;
+    }
+    .cry .holloway {
+        background-position: -100px -50px;
+        left: 476px;
+        top: 1324px;
+    }
+    .cry .pulis {
+        background-position: -150px -50px;
+        left: 676px;
+        top: 1219px;
+    }
+    .westb .clarke {
+        background-position: -300px -50px;
+        left: 876px;
+        top: 1030px;
+    }
+    .westb .mel {
+        background-position: -350px -50px;
+        left: 1126px;
+        top: 1000px;
+    }
+    .tot .avb {
+        background-position: -200px -50px;
+        left: 876px;
+        top: 658px;
+    }
+    .tot .sherwood {
+        background-position: -250px -50px;
+        left: 876px;
+        top: 618px;
+    }
+    .sun .dicanio {
+        background-position: 0 -50px;
+        left: 325px;
+        top: 1412px;
+    }
+    .sun .poyet {
+        background-position: -50px -50px;
+        left: 425px;
+        top: 1436px;
+    }
+    .swa .laudrup {
+        background-position: -400px -50px;
+        left: 1275px;
+        top: 1000px;
+    }
+
+/* Weeks */
+
+#weeks {
+    position: absolute;
+    left: 100px;
+    width: 2350px;
+}
+.week {
+    color: white;
+    display: block;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    width: 50px;
+}
+
+.week-num {
+    float: left;
+    font-size: 20px;
+    font-weight: 900;
+    width: 50px;
+}
+
+.year-first {
+    margin-left: 75px;
+}
+.year-last {
+    margin-right: 35px;
+}
+
+.weeks-top {
+    opacity: 0.8;
+    top: 200px;
+}
+.weeks-mid {
+    opacity: 0.3;
+    top: 759px;
+}
+.weeks-bot {
+    opacity: 0.3;
+    top: 1260px;
+}
+
+/* Labels */
+
+#labels {
+    opacity: 0.8;
+    position: absolute;
+    top: 0px;
+    height: 1550px;
+    width: 65px;
+}
+.labels-left {
+    left: 30px;
+}
+.label {
+    color: white;
+    display: block;
+    float: left;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 202px;
+}
+
+.label-num {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.target-first {
+    margin-top: 182px;
+}
+.target {
+    margin-bottom: 84px;
+}

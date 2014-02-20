@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block header %}
+	<link rel="stylesheet" href="{{ STATIC_URL }}/css/style.css">
+	<title>Daniel O'Prey</title>
+{% endblock %}
+
+{% block content %}
+<h1>Daniel O'Prey</h1>
+<p>Coming Soon. Follow me on <a href="http://www.twitter.com/danoprey">twitter</a>. Email: d@ this domain.co.uk</p>
+<h2>Articles</h2>
+<ul>
+	{% for post in posts %}
+	<li> 
+		<b><a href='/{{ post.path }}'>{{ post.title }}</a></b>
+	</li>
+	{% endfor %}
+</ul>
+<h2>Projects</h2>
+<p>I aim to make one experiment per week with no purpose other than to explore an idea and see where it takes me.</p>
+<p><a href="/projects/cube.html">1: RGB Cube</a></p>
+<p><a href="/projects/premierleague.html">2: Premier League Visualisation</a></p>
+{% endblock %}
+
+{% block disqus %}
+{% endblock %}
