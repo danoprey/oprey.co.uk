@@ -1,12 +1,12 @@
 body {
     text-shadow: 1px 1px 1px rgb(0,0,0);
-    background-image: url('../../../img/projects/premierleague/bg.jpg');
+    background-image: url('../../img/projects/premierleague/bg.jpg');
     padding: 0;
     margin: 0;
 }
 
 #header, #team-header {
-    background-color: rgb(0,0,0);
+    background-color: rgb(18,18,18);
     background-color: rgba(0,0,0,0.85);
     display: block;
     left: 0;
@@ -111,34 +111,34 @@ body {
     .w26 {
         left: 1350px;
     }
-    .labels-right {
+    .w27 {
         left: 1400px;
     }
-    .wForm {
-        left: 1475px;
+    .labels-right {
+        left: 1450px;
     }
-    .w2012 {
+    .wForm {
         left: 1525px;
     }
-    .w2011 {
+    .w2012 {
         left: 1575px;
     }
-    .w2010 {
+    .w2011 {
         left: 1625px;
     }
-    .w2009 {
+    .w2010 {
         left: 1675px;
     }
-    .w2008 {
+    .w2009 {
         left: 1725px;
+    }
+    .w2008 {
+        left: 1775px;
     }
     .to-play {
         left: 410px;
         position: absolute;
         top: 310px;
-    }
-    .w27 {
-        left: 1400px;
     }
     .w28 {
         left: 1450px;
@@ -175,7 +175,7 @@ body {
     }
 
 .manager, .team, .relegated {
-    background-image: url('../../../img/projects/premierleague/sprite.png');
+    background-image: url('../../img/projects/premierleague/sprite.png');
     display: block;
     height: 50px;
     opacity: 0.3;
@@ -192,7 +192,7 @@ body {
     width: 800px;
 }
 .title-image {
-    background-image: url('../../../img/projects/premierleague/sprite.png');
+    background-image: url('../../img/projects/premierleague/sprite.png');
     display: block;
     background-position: -1000px 0;
     height: 71px;
@@ -213,8 +213,9 @@ body {
     position: fixed;
 }
 
-.team.w26 {
+.team.w27 {
     opacity: 0.7;   
+    z-index: 100;
 }
 
     .ars:hover .team,
@@ -268,7 +269,7 @@ body {
         background-position: 0 0;
     }
         .ars .wForm {
-            top: 400px;
+            top: 416px;
         }
         .ars .w0 {
             left: 10%;
@@ -352,8 +353,7 @@ body {
             top: 423px;
         }
         .ars .w27 {
-            margin-left: -5px;
-            top: 80px;
+            top: 407px;
         }
         .ars .w28 {
             margin-left: 5px;
@@ -511,8 +511,7 @@ body {
             top: 962px;
         }
         .ast .w27 {
-            margin-left: 5px;
-            top: 670px;
+            top: 0px;
         }
         .ast .w28 {
             margin-left: -5px;
@@ -593,7 +592,7 @@ body {
         background-position: -100px 0;
     }
         .car .wForm {
-            top: 1104px;
+            top: 1138px;
         }
         .car .w0 {
             left: 18%;
@@ -677,8 +676,7 @@ body {
             top: 1077px;
         }
         .car .w27 {
-            margin-left: -5px;
-            top: 160px;
+            top: 1093px;
         }
         .car .w28 {
             margin-left: 5px;
@@ -740,7 +738,7 @@ body {
         background-position: -150px 0;
     }
         .che .wForm {
-            top: 322px;
+            top: 349px;
         }
         .che .w0 {
             left: 22%;
@@ -824,8 +822,7 @@ body {
             top: 404px;
         }
         .che .w27 {
-            margin-left: -5px;
-            top: 0px;
+            top: 389px;
         }
         .che .w28 {
             margin-left: 5px;
@@ -898,7 +895,7 @@ body {
         background-position: -200px 0;
     }
         .cry .wForm {
-            top: 880px;
+            top: 964px;
         }
         .cry .w0 {
             left: 26%;
@@ -983,8 +980,8 @@ body {
             top: 100px;
         }
         .cry .w27 {
-            margin-left: -5px;
-            top: 480px;
+            margin-left: -50px;
+            top: 1000px;
         }
         .cry .w28 {
             margin-left: 5px;
@@ -1037,7 +1034,7 @@ body {
         background-position: -250px 0;
     }
         .eve .wForm {
-            top: 673px;
+            top: 696px;
         }
         .eve .w0 {
             left: 30%;
@@ -1122,8 +1119,8 @@ body {
             top: 75px;
         }
         .eve .w27 {
-            margin-left: 5px;
-            top: 30px;
+            margin-left: -50px;
+            top: 635px;
         }
         .eve .w28 {
             margin-left: -5px;
@@ -1196,7 +1193,7 @@ body {
         background-position: -300px 0;
     }
         .ful .wForm {
-            top: 1151px;
+            top: 1133px;
         }
         .ful .w0 {
             left: 34%;
@@ -1280,8 +1277,7 @@ body {
             top: 1115px;
         }
         .ful .w27 {
-            margin-left: 5px;
-            top: 350px;
+            top: 1111px;
         }
         .ful .w28 {
             margin-left: -5px;
@@ -1354,7 +1350,7 @@ body {
         background-position: -350px 0;
     }
         .hul .wForm {
-            top: 995px;
+            top: 979px;
         }
         .hul .w0 {
             left: 38%;
@@ -1438,8 +1434,7 @@ body {
             top: 981px;
         }
         .hul .w27 {
-            margin-left: 5px;
-            top: 190px;
+            top: 944px;
         }
         .hul .w28 {
             margin-left: -5px;
@@ -1582,8 +1577,7 @@ body {
             top: 481px;
         }
         .liv .w27 {
-            margin-left: -5px;
-            top: 560px;
+            top: 0px;
         }
         .liv .w28 {
             margin-left: 5px;
@@ -1656,7 +1650,7 @@ body {
         background-position: -450px 0;
     }
         .manc .wForm {
-            top: 383px;
+            top: 393px;
         }
         .manc .w0 {
             left: 46%;
@@ -1741,8 +1735,8 @@ body {
             top: 150px;
         }
         .manc .w27 {
-            margin-left: -5px;
-            top: 240px;
+            margin-left: -50px;
+            top: 404px;
         }
         .manc .w28 {
             margin-left: 5px;
@@ -1816,7 +1810,7 @@ body {
         background-position: -500px 0;
     }
         .manu .wForm {
-            top: 712px;
+            top: 709px;
         }
         .manu .w0 {
             left: 50%;
@@ -1900,8 +1894,7 @@ body {
             top: 692px;
         }
         .manu .w27 {
-            margin-left: 5px;
-            top: 510px;
+            top: 667px;
         }
         .manu .w28 {
             margin-left: -5px;
@@ -2059,8 +2052,7 @@ body {
             top: 788px;
         }
         .new .w27 {
-            margin-left: -5px;
-            top: 640px;
+            top: 0px;
         }
         .new .w28 {
             margin-left: 5px;
@@ -2211,8 +2203,7 @@ body {
             top: 1019px;
         }
         .nor .w27 {
-            margin-left: -5px;
-            top: 720px;
+            top: 0px;
         }
         .nor .w28 {
             margin-left: 5px;
@@ -2273,7 +2264,7 @@ body {
         background-position: -650px 0;
     }
         .sou .wForm {
-            top: 730px;
+            top: 770px;
         }
         .sou .w0 {
             left: 62%;
@@ -2357,8 +2348,7 @@ body {
             top: 750px;
         }
         .sou .w27 {
-            margin-left: 5px;
-            top: 430px;
+            top: 778px;
         }
         .sou .w28 {
             margin-left: -5px;
@@ -2423,7 +2413,7 @@ body {
         background-position: -700px 0;
     }
         .sto .wForm {
-            top: 1061px;
+            top: 1036px;
         }
         .sto .w0 {
             left: 66%;
@@ -2507,8 +2497,7 @@ body {
             top: 981px;
         }
         .sto .w27 {
-            margin-left: 5px;
-            top: 270px;
+            top: 1000px;
         }
         .sto .w28 {
             margin-left: -5px;
@@ -2579,7 +2568,7 @@ body {
         background-position: -750px 0;
     }
         .sun .wForm {
-            top: 885px;
+            top: 972px;
         }
         .sun .w0 {
             left: 70%;
@@ -2664,8 +2653,8 @@ body {
             top: 175px;
         }
         .sun .w27 {
-            margin-left: 5px;
-            top: 110px;
+            margin-left: -50px;
+            top: 1038px;
         }
         .sun .w28 {
             margin-left: -5px;
@@ -2822,8 +2811,7 @@ body {
             top: 962px;
         }
         .swa .w27 {
-            margin-left: 5px;
-            top: 590px;
+            top: 0px;
         }
         .swa .w28 {
             margin-left: -5px;
@@ -2966,8 +2954,7 @@ body {
             top: 538px;
         }
         .tot .w27 {
-            margin-left: 5px;
-            top: 750px;
+            top: 0px;
         }
         .tot .w28 {
             margin-left: -5px;
@@ -3039,7 +3026,7 @@ body {
         background-position: -900px 0;
     }
         .westb .wForm {
-            top: 1035px;
+            top: 1044px;
         }
         .westb .w0 {
             left: 82%;
@@ -3123,8 +3110,7 @@ body {
             top: 1038px;
         }
         .westb .w27 {
-            margin-left: -5px;
-            top: 320px;
+            top: 1037px;
         }
         .westb .w28 {
             margin-left: 5px;
@@ -3193,7 +3179,7 @@ body {
         background-position: -950px 0;
     }
         .westh .wForm {
-            top: 832px;
+            top: 803px;
         }
         .westh .w0 {
             left: 86%;
@@ -3277,8 +3263,7 @@ body {
             top: 962px;
         }
         .westh .w27 {
-            margin-left: -5px;
-            top: 400px;
+            top: 926px;
         }
         .westh .w28 {
             margin-left: 5px;

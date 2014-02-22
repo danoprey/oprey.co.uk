@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" href="{{ STATIC_URL }}/favicon.ico"> 
 	<link rel="stylesheet" href="{{ STATIC_URL }}/css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Varela+Round|Roboto+Slab' rel='stylesheet' type='text/css'>
-	{% block header %}
+	{% block head %}
 	<title>Welcome</title>
 	{% endblock %}
     <meta property="og:type" content="article">
@@ -28,7 +28,7 @@
     <meta property="og:published_time" content="">
 
 </head>
-<body class="body">
+{% block body-tag %}<body class="body">{% endblock %}
 <div class="container">
         <div class="content-wrap">
             <div class="content">
@@ -58,11 +58,11 @@
                     </div>
                 </article>
             </div>
+            {% block footer %}
             <div class="page-footer">
-                {% block footer %}
                 <p>This site is made with <a href="https://github.com/koenbok/Cactus">Cactus</a> and hosted on <a href="https://aws.amazon.com/s3/">Amazon S3</a>.</p>
-                {% endblock %}
-             </div>  
+             </div>
+            {% endblock %}
         </div>
   
         <div class="side-nav ">
@@ -74,13 +74,6 @@
                     <span>Daniel O'Prey</span>
                 </a>
             </div>
-
-            <ul>
-                <li><a href="/about/" class=""><span>About Me</span> <i class="icon team"></i></a></li>
-                <li><a href="/articles/" class=""><span>Articles</span> <i class="icon portfolio"></i></a></li>
-                <li><a href="/tutorials/" class=""><span>Tutorials</span> <i class="icon portfolio"></i></a></li>
-                <li><a href="/projects/" class=""><span>Projects</span> <i class="icon portfolio"></i></a></li>
-            </ul>
 
             <h3>Projects</h3>
             <ul>

@@ -10,6 +10,13 @@ body {
 .container {
     overflow: hidden;
 }
+body.overflow .container {
+    height: 100%;
+    overflow: auto;
+}
+body.full .container {
+    margin-left: 50px;
+}
 h1, h2, h3, h4, h5, h6, p, ul, ol, hr {
     font-size: inherit;
     line-height: inherit;
@@ -50,15 +57,31 @@ li {
 }
 
 /* Global - Content */
+.content-wrap, .content {
+    height: 100%;
+}
 .content-wrap {
-  border-top: 1px solid transparent;
+  border-top: 1px solid black;
 }
 .content-wrap .content {
   margin: 0 auto;
   width: 681px;
 }
+body.full .content-wrap .content {
+  margin: 0;
+  width: auto;
+}
 
 /* Global - Side Nav */
+.side-nav {
+  background-color: rgb(18,18,18);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 200px;
+  overflow: hidden;
+}
 .side-nav ul {
     width: 200px;
 }
@@ -376,13 +399,6 @@ html.side-nav-always-open .content-wrap {
   }
 }
 .side-nav {
-  background-color: rgb(18,18,18);
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 200px;
-  overflow: hidden;
   cursor: default;
   color: #c8c8c8;
   overflow-x: hidden;
@@ -472,7 +488,7 @@ html.side-nav-always-open .content-wrap {
   width: 40px;
   height: 40px;
   overflow: hidden;
-  background-image: url(../img/nav-icons.png);
+  /* background-image: url(../img/nav-icons.png); */
   opacity: 0.4;
 }
 .side-nav li a.selected .icon {
