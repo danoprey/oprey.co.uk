@@ -2,7 +2,7 @@
 body {
     background-color: rgb(12,12,12);
     color: rgb(240, 240, 240);
-    font-family: 'Roboto Slab', Helvetica, Arial, serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-size: 15px;
     line-height: 1.4;
@@ -13,9 +13,6 @@ body {
 body.overflow .container {
     height: 100%;
     overflow: auto;
-}
-body.full .container {
-    margin-left: 50px;
 }
 h1, h2, h3, h4, h5, h6, p, ul, ol, hr {
     font-size: inherit;
@@ -30,9 +27,15 @@ h1, h2, h3, h4, h5 {
 }
 p {
     color: rgb(180, 180, 180);
-    font-size: 21px;
-    line-height: 33.7px;
-    margin: 1.3em 0 1.1em 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 1.6;
+    padding-bottom: 32px;
+}
+section.content p {
 }
 a {
     font-family: 'Varela Round', sans-serif;
@@ -47,6 +50,15 @@ a:hover, a:focus {
     -moz-transition: all ease-in-out 0.1s;
     -webkit-transition: all ease-in-out 0.1s;
     -o-transition: all ease-in-out 0.1s;
+}
+article a {
+    background-color: rgb(24, 24, 24);
+    color: rgb(230, 230, 230);
+    padding: 0px 6px;
+    text-decoration: none;
+}
+article a:hover, article a:focus {
+    background-color: rgb(32, 32, 32);
 }
 ul, ol {
     margin: 0;
