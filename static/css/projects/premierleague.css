@@ -22,7 +22,7 @@ body {
 
 #chart {
     position: absolute;
-    left: 0px;
+    left: 50px;
     top: 0px;
 }
     
@@ -1493,7 +1493,7 @@ body {
         background-position: -400px 0;
     }
         .liv .wForm {
-            top: 439px;
+            top: 401px;
         }
         .liv .w0 {
             left: 42%;
@@ -1577,7 +1577,7 @@ body {
             top: 481px;
         }
         .liv .w27 {
-            top: 0px;
+            top: 463px;
         }
         .liv .w28 {
             margin-left: 5px;
@@ -2119,7 +2119,7 @@ body {
         background-position: -600px 0;
     }
         .nor .wForm {
-            top: 1043px;
+            top: 969px;
         }
         .nor .w0 {
             left: 58%;
@@ -2203,7 +2203,7 @@ body {
             top: 1019px;
         }
         .nor .w27 {
-            top: 0px;
+            top: 981px;
         }
         .nor .w28 {
             margin-left: 5px;
@@ -2870,7 +2870,7 @@ body {
         background-position: -850px 0;
     }
         .tot .wForm {
-            top: 436px;
+            top: 553px;
         }
         .tot .w0 {
             left: 78%;
@@ -2954,7 +2954,7 @@ body {
             top: 538px;
         }
         .tot .w27 {
-            top: 0px;
+            top: 574px;
         }
         .tot .w28 {
             margin-left: -5px;
