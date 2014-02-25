@@ -188,7 +188,7 @@ body {
     color: grey;
     display: block;
     font-size: 24px;
-    margin: 130px auto 0 auto;
+    margin: 130px 0 0 120px;
     width: 800px;
 }
 .title-image {
@@ -3420,7 +3420,7 @@ hr {
     height: 2px;
     opacity: 0.2;
     position: absolute;
-    width: 1735px;
+    width: 1835px;
 }
 
    
@@ -3612,7 +3612,7 @@ hr {
 
 .weeks-top {
     opacity: 0.8;
-    top: 200px;
+    top: 221px;
 }
 .weeks-mid {
     opacity: 0.3;
@@ -3620,7 +3620,7 @@ hr {
 }
 .weeks-bot {
     opacity: 0.3;
-    top: 1260px;
+    top: 1177px;
 }
 
 /* Labels */
@@ -3628,7 +3628,7 @@ hr {
 #labels {
     opacity: 0.8;
     position: absolute;
-    top: 0px;
+    top: -10px;
     height: 1550px;
     width: 65px;
 }
@@ -3641,11 +3641,11 @@ hr {
     float: left;
     font-size: 10px;
     text-align: center;
-    margin-bottom: 202px;
+    margin-bottom: 197px;
 }
 
 .label-num {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
 }
 
@@ -3653,5 +3653,5 @@ hr {
     margin-top: 182px;
 }
 .target {
-    margin-bottom: 84px;
+    margin-bottom: 78.8px;
 }
