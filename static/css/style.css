@@ -23,9 +23,10 @@ h1, h2, h3, h4, h5 {
     font-family: 'Varela Round', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
 }
 p {
-    color: rgb(180, 180, 180);
+    color: rgb(212, 212, 212);
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-style: normal;
@@ -35,6 +36,9 @@ p {
     padding-bottom: 32px;
 }
 section.content p {
+}
+p.small {
+    font-size: 14px;
 }
 a {
     font-family: 'Varela Round', sans-serif;
