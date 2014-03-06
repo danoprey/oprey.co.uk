@@ -22,7 +22,7 @@ body {
 
 #chart {
     position: absolute;
-    left: 50px;
+    left: 0px;
     top: 0px;
 }
     
@@ -114,34 +114,34 @@ body {
     .w27 {
         left: 1400px;
     }
-    .labels-right {
+    .w28 {
         left: 1450px;
     }
-    .wForm {
-        left: 1525px;
+    .labels-right {
+        left: 1500px;
     }
-    .w2012 {
+    .wForm {
         left: 1575px;
     }
-    .w2011 {
+    .w2012 {
         left: 1625px;
     }
-    .w2010 {
+    .w2011 {
         left: 1675px;
     }
-    .w2009 {
+    .w2010 {
         left: 1725px;
     }
-    .w2008 {
+    .w2009 {
         left: 1775px;
+    }
+    .w2008 {
+        left: 1825px;
     }
     .to-play {
         left: 410px;
         position: absolute;
         top: 310px;
-    }
-    .w28 {
-        left: 1450px;
     }
     .w29 {
         left: 1500px;
@@ -188,7 +188,7 @@ body {
     color: grey;
     display: block;
     font-size: 24px;
-    margin: 130px 0 0 120px;
+    margin: 130px auto 0 auto;
     width: 800px;
 }
 .title-image {
@@ -427,7 +427,7 @@ body {
         background-position: -50px 0;
     }
         .ast .wForm {
-            top: 987px;
+            top: 939px;
         }
         .ast .w0 {
             left: 14%;
@@ -511,7 +511,7 @@ body {
             top: 962px;
         }
         .ast .w27 {
-            top: 981px;
+            top: 0px;
         }
         .ast .w28 {
             margin-left: -5px;
@@ -1493,7 +1493,7 @@ body {
         background-position: -400px 0;
     }
         .liv .wForm {
-            top: 401px;
+            top: 439px;
         }
         .liv .w0 {
             left: 42%;
@@ -1577,7 +1577,7 @@ body {
             top: 481px;
         }
         .liv .w27 {
-            top: 463px;
+            top: 0px;
         }
         .liv .w28 {
             margin-left: 5px;
@@ -1968,7 +1968,7 @@ body {
         background-position: -550px 0;
     }
         .new .wForm {
-            top: 847px;
+            top: 928px;
         }
         .new .w0 {
             left: 54%;
@@ -2052,7 +2052,7 @@ body {
             top: 788px;
         }
         .new .w27 {
-            top: 759px;
+            top: 0px;
         }
         .new .w28 {
             margin-left: 5px;
@@ -2119,7 +2119,7 @@ body {
         background-position: -600px 0;
     }
         .nor .wForm {
-            top: 969px;
+            top: 1043px;
         }
         .nor .w0 {
             left: 58%;
@@ -2203,7 +2203,7 @@ body {
             top: 1019px;
         }
         .nor .w27 {
-            top: 981px;
+            top: 0px;
         }
         .nor .w28 {
             margin-left: 5px;
@@ -2727,7 +2727,7 @@ body {
         background-position: -800px 0;
     }
         .swa .wForm {
-            top: 1005px;
+            top: 961px;
         }
         .swa .w0 {
             left: 74%;
@@ -2811,7 +2811,7 @@ body {
             top: 962px;
         }
         .swa .w27 {
-            top: 981px;
+            top: 0px;
         }
         .swa .w28 {
             margin-left: -5px;
@@ -2870,7 +2870,7 @@ body {
         background-position: -850px 0;
     }
         .tot .wForm {
-            top: 553px;
+            top: 436px;
         }
         .tot .w0 {
             left: 78%;
@@ -2954,7 +2954,7 @@ body {
             top: 538px;
         }
         .tot .w27 {
-            top: 574px;
+            top: 0px;
         }
         .tot .w28 {
             margin-left: -5px;
@@ -3420,7 +3420,7 @@ hr {
     height: 2px;
     opacity: 0.2;
     position: absolute;
-    width: 1835px;
+    width: 1735px;
 }
 
    
@@ -3612,7 +3612,7 @@ hr {
 
 .weeks-top {
     opacity: 0.8;
-    top: 221px;
+    top: 200px;
 }
 .weeks-mid {
     opacity: 0.3;
@@ -3620,7 +3620,7 @@ hr {
 }
 .weeks-bot {
     opacity: 0.3;
-    top: 1177px;
+    top: 1260px;
 }
 
 /* Labels */
@@ -3628,7 +3628,7 @@ hr {
 #labels {
     opacity: 0.8;
     position: absolute;
-    top: -10px;
+    top: 0px;
     height: 1550px;
     width: 65px;
 }
@@ -3641,11 +3641,11 @@ hr {
     float: left;
     font-size: 10px;
     text-align: center;
-    margin-bottom: 197px;
+    margin-bottom: 202px;
 }
 
 .label-num {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 900;
 }
 
@@ -3653,5 +3653,5 @@ hr {
     margin-top: 182px;
 }
 .target {
-    margin-bottom: 78.8px;
+    margin-bottom: 84px;
 }
