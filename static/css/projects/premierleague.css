@@ -213,7 +213,7 @@ body {
     position: fixed;
 }
 
-.team.w27 {
+.team.w28 {
     opacity: 0.7;   
     z-index: 100;
 }
@@ -269,7 +269,7 @@ body {
         background-position: 0 0;
     }
         .ars .wForm {
-            top: 416px;
+            top: 493px;
         }
         .ars .w0 {
             left: 10%;
@@ -356,8 +356,7 @@ body {
             top: 407px;
         }
         .ars .w28 {
-            margin-left: 5px;
-            top: 270px;
+            top: 446px;
         }
         .ars .w29 {
             margin-left: -5px;
@@ -514,8 +513,7 @@ body {
             top: 0px;
         }
         .ast .w28 {
-            margin-left: -5px;
-            top: 400px;
+            top: px;
         }
         .ast .w29 {
             margin-left: 5px;
@@ -679,8 +677,7 @@ body {
             top: 1093px;
         }
         .car .w28 {
-            margin-left: 5px;
-            top: 590px;
+            top: px;
         }
         .car .w29 {
             margin-left: -5px;
@@ -738,7 +735,7 @@ body {
         background-position: -150px 0;
     }
         .che .wForm {
-            top: 349px;
+            top: 342px;
         }
         .che .w0 {
             left: 22%;
@@ -825,8 +822,7 @@ body {
             top: 389px;
         }
         .che .w28 {
-            margin-left: 5px;
-            top: 110px;
+            top: 375px;
         }
         .che .w29 {
             margin-left: -5px;
@@ -984,8 +980,7 @@ body {
             top: 1000px;
         }
         .cry .w28 {
-            margin-left: 5px;
-            top: 510px;
+            top: px;
         }
         .cry .w29 {
             margin-left: -5px;
@@ -1034,7 +1029,7 @@ body {
         background-position: -250px 0;
     }
         .eve .wForm {
-            top: 696px;
+            top: 669px;
         }
         .eve .w0 {
             left: 30%;
@@ -1123,8 +1118,8 @@ body {
             top: 635px;
         }
         .eve .w28 {
-            margin-left: -5px;
-            top: 0px;
+            margin-left: -50px;
+            top: 611px;
         }
         .eve .w29 {
             margin-left: 5px;
@@ -1280,8 +1275,7 @@ body {
             top: 1111px;
         }
         .ful .w28 {
-            margin-left: -5px;
-            top: 80px;
+            top: px;
         }
         .ful .w29 {
             margin-left: 5px;
@@ -1437,8 +1431,7 @@ body {
             top: 944px;
         }
         .hul .w28 {
-            margin-left: -5px;
-            top: 160px;
+            top: px;
         }
         .hul .w29 {
             margin-left: 5px;
@@ -1580,8 +1573,7 @@ body {
             top: 0px;
         }
         .liv .w28 {
-            margin-left: 5px;
-            top: 350px;
+            top: 446px;
         }
         .liv .w29 {
             margin-left: -5px;
@@ -1739,9 +1731,7 @@ body {
             top: 404px;
         }
         .manc .w28 {
-            margin-left: 5px;
-            left: 1600px;
-            top: 830px;
+            top: px;
         }
         .manc .w29 {
             margin-left: -5px;
@@ -1897,9 +1887,7 @@ body {
             top: 667px;
         }
         .manu .w28 {
-            margin-left: -5px;
-            left: 1600px;
-            top: 800px;
+            top: px;
         }
         .manu .w29 {
             margin-left: 5px;
@@ -2055,8 +2043,7 @@ body {
             top: 0px;
         }
         .new .w28 {
-            margin-left: 5px;
-            top: 190px;
+            top: px;
         }
         .new .w29 {
             margin-left: -5px;
@@ -2206,8 +2193,7 @@ body {
             top: 0px;
         }
         .nor .w28 {
-            margin-left: 5px;
-            top: 430px;
+            top: px;
         }
         .nor .w29 {
             margin-left: -5px;
@@ -2351,8 +2337,7 @@ body {
             top: 778px;
         }
         .sou .w28 {
-            margin-left: -5px;
-            top: 320px;
+            top: px;
         }
         .sou .w29 {
             margin-left: 5px;
@@ -2413,7 +2398,7 @@ body {
         background-position: -700px 0;
     }
         .sto .wForm {
-            top: 1036px;
+            top: 974px;
         }
         .sto .w0 {
             left: 66%;
@@ -2500,8 +2485,7 @@ body {
             top: 1000px;
         }
         .sto .w28 {
-            margin-left: -5px;
-            top: 240px;
+            top: 964px;
         }
         .sto .w29 {
             margin-left: 5px;
@@ -2657,8 +2641,7 @@ body {
             top: 1038px;
         }
         .sun .w28 {
-            margin-left: -5px;
-            top: -240px;
+            top: px;
         }
         .sun .w29 {
             margin-left: 5px;
@@ -2814,8 +2797,7 @@ body {
             top: 0px;
         }
         .swa .w28 {
-            margin-left: -5px;
-            top: 480px;
+            top: px;
         }
         .swa .w29 {
             margin-left: 5px;
@@ -2957,8 +2939,7 @@ body {
             top: 0px;
         }
         .tot .w28 {
-            margin-left: -5px;
-            top: 560px;
+            top: px;
         }
         .tot .w29 {
             margin-left: 5px;
@@ -3113,8 +3094,7 @@ body {
             top: 1037px;
         }
         .westb .w28 {
-            margin-left: 5px;
-            top: -210px;
+            top: px;
         }
         .westb .w29 {
             margin-left: -5px;
@@ -3179,7 +3159,7 @@ body {
         background-position: -950px 0;
     }
         .westh .wForm {
-            top: 803px;
+            top: 829px;
         }
         .westh .w0 {
             left: 86%;
@@ -3266,8 +3246,7 @@ body {
             top: 926px;
         }
         .westh .w28 {
-            margin-left: 5px;
-            top: 30px;
+            top: 946px;
         }
         .westh .w29 {
             margin-left: -5px;
