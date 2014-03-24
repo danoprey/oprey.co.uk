@@ -1,10 +1,35 @@
+/* Typography */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans Condensed', 'Sans-Serif';
+    font-weight: 500;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+}
+    article h1 {
+        font-size: 72px;
+        text-transform: uppercase;
+    }
+p {
+    font-size: 24px;
+    line-height: 1.6;
+}
+    p a {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+    }
+
+/* Layout */
+
 body {
     background-color: rgb(12,12,12);
     color: rgb(240, 240, 240);
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 1.4;
 }
 .container {
     overflow: hidden;
@@ -14,25 +39,11 @@ body.overflow .container {
     overflow: auto;
 }
 h1, h2, h3, h4, h5, h6, p, ul, ol, hr {
-    font-size: inherit;
-    line-height: inherit;
     margin: 0 0 10px 0;
     position: relative;
 }
-h1, h2, h3, h4, h5 {
-    font-family: 'Varela Round', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    -webkit-font-smoothing: antialiased;
-}
 p {
-    color: rgb(212, 212, 212);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 300;
-    line-height: 1.6;
+    color: rgb(190, 190, 190);
     padding-bottom: 32px;
 }
 section.content p {
@@ -41,7 +52,6 @@ p.small {
     font-size: 14px;
 }
 a {
-    font-family: 'Varela Round', sans-serif;
     border: none;
     color: rgb(240, 240, 240);
     text-decoration: underline;
@@ -721,15 +731,6 @@ article {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-}
-article h1,
-article h2,
-article h3,
-article h4 {
-  text-transform: none;
-  line-height: 1.2;
-  font-size: 32px;
-  font-weight: 300;
 }
 article h2 {
   font-size: 38px;
