@@ -24,37 +24,74 @@ p {
         font-family: "Open Sans", sans-serif;
         font-weight: 600;
     }
+    p.small {
+        font-size: 14px;
+    }
 
-/* Layout */
+/* Styles */
 
 body {
     background-color: rgb(12,12,12);
     color: rgb(240, 240, 240);
 }
+p {
+    color: rgb(190, 190, 190);
+}
+.content-wrap {
+    border-top: 1px solid black;
+}
+
+/* Layout */
+
 .container {
     overflow: hidden;
 }
+.content-wrap, .content {
+    height: 100%;
+}
+p, article h1, article h2, article h3, article h4, article h5, img  {
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+p {
+    width: 560px;
+}
+article h1, article h2, article h3, article h4, article h5 {
+    width: 580px;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Shortcodes */
+
+.h200 {
+    height: 200px;
+}
+.fw {
+    width: 100%;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
 body.overflow .container {
     height: 100%;
     overflow: auto;
 }
-h1, h2, h3, h4, h5, h6, p, ul, ol, hr {
-    margin: 0 0 10px 0;
-    position: relative;
-}
-p {
-    color: rgb(190, 190, 190);
-    padding-bottom: 32px;
-}
-section.content p {
-}
-p.small {
-    font-size: 14px;
-}
 a {
     border: none;
     color: rgb(240, 240, 240);
-    text-decoration: underline;
 }
 a:hover, a:focus {
     color: rgb(255, 255, 255);
@@ -82,16 +119,7 @@ li {
 }
 
 /* Global - Content */
-.content-wrap, .content {
-    height: 100%;
-}
-.content-wrap {
-    border-top: 1px solid black;
-}
-.content-wrap .content {
-    margin: 0 auto;
-    width: 681px;
-}
+
 body.full .content-wrap .content {
     margin: 0;
     width: auto;
@@ -744,9 +772,6 @@ article h3 {
 }
 article h4 {
   font-size: 24px;
-}
-article p {
-  margin-bottom: 15px;
 }
 article ul {
   padding: 0;
